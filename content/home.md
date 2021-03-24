@@ -8,4 +8,4 @@ cats: []
 ---
 welcome to **inovark tech** This page is built with NextJS, and content is managed in Netlify CMS,
 
-![](img/giphy.gif)
+![]()
