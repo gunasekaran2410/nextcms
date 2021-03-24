@@ -24,6 +24,6 @@ contents:
       Reality using mobile apps for research and development.
 what_we_do: []
 ---
-welcome to **inovark tech** This page is built with NextJS, and content is managed in Netlify CMS,
+
 
 ![]()
