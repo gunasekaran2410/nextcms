@@ -6,8 +6,6 @@ contents:
     description: Content1
   - name: name2
     description: Content2
-cats:
-  - name: gfgdgd
-    description: fdgdgfdgfdg
+cats: []
 ---
 welcome to **inovark tech** This page is built with NextJS, and content is managed in Netlify CMS,
