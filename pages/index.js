@@ -51,7 +51,7 @@ export default function Home() {
                 <article className={styles.thumb}>
                   <div className="button colio-link">
                     {/* <Image layout="responsive" src="/images/what_we/product_development.png" width="200" height="200" alt="product development" />  */}
-                      <h1  className="color-text">{li.name}</h1>
+                      <h1  className="product-text">{li.name}</h1>
                       <p  className="color-text h-125"> {li.description}</p>
                       </div>
                       <Button variant="primary" size="sm">

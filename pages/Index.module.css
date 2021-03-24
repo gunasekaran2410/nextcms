@@ -43,7 +43,20 @@
 .light_gray_bg {
     background: #f7f7f7 !important;
 }
-
+/* home */
+.product-text{
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
 /* navigation */
 .nav_link{
     font-size: 14px;
