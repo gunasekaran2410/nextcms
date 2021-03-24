@@ -9,7 +9,7 @@ contents:
   - name: MOBILE APP
     description: " A concrete mobile strategy involves understanding the usage
       patterns of the user to provide what it needs. "
-cats: []
+what_we_do: []
 ---
 welcome to **inovark tech** This page is built with NextJS, and content is managed in Netlify CMS,
 

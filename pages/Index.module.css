@@ -16,6 +16,8 @@
     margin-bottom: 3rem;
     transition: 0.4s ease-in-out;
 }
+
+
 .padding{
 	padding: 2rem 0;
     font-size: 29px;
@@ -44,6 +46,19 @@
     background: #f7f7f7 !important;
 }
 /* home */
+/* 
+.thumb:hover{
+    background: #0056b3;
+} */
+.thumb.product_text:hover{
+    color: white;
+}
+/* .hover_file .btn_sm span:hover{
+    color: #fff;
+}
+.hover_file .product_text:hover{
+    color: #fff;
+} */
 .product_text{
     font-weight: bold;
     font-size: 21px;
@@ -51,11 +66,55 @@
     color: #000;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-transform: uppercase;
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
     -ms-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
+}
+.btn_sm{
+    height: 29px;
+    line-height: 19px;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-weight: 100;
+    margin-top: 10px;
+    min-width: 110px;
+    background-color: #005faf;
+    color: #fff;
+    border-color: #005faf;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.btn_sm span{
+    position: relative;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    bottom: 7px;
+    left: 12px;
+}
+.read_icon{
+    line-height: 28px;
+    padding: 0 6px;
+    font-size: 25px;
+    color: #005faf;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 0 4px 4px 0;
+    position: relative;
+    bottom: 3px;
+    left: 9px;
+}
+.h_125{
+    font-size: 15px;
+    cursor: auto;
+    min-height: 125px;
+    font-weight: 400;
+    color: #6f6f6f;
+    line-height: 24px;
 }
 /* navigation */
 .nav_link{

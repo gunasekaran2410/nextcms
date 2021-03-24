@@ -14,7 +14,7 @@ collections:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
+        - label: 'what_we_do'
           name: "contents"
           widget: list
           fields:

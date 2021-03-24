@@ -49,15 +49,15 @@ export default function Home() {
          
     <Col xs={6} md={4} key={k}>
                 <article className={styles.thumb}>
-                  <div className="button colio-link">
+                  <div >
                     {/* <Image layout="responsive" src="/images/what_we/product_development.png" width="200" height="200" alt="product development" />  */}
                       <h1  className={styles.product_text}>{li.name}</h1>
-                      <p  className="color-text h-125"> {li.description}</p>
+                      <p  className={styles.h_125}> {li.description}</p>
                       </div>
-                      <Button variant="primary" size="sm">
-                      Read more &nbsp;&nbsp;&nbsp; 
+                      <Button variant="primary" size="sm" className={styles.btn_sm}>
+                      <span>Read more &nbsp;&nbsp;&nbsp; </span>
                      
-                      <FontAwesomeIcon icon={['fas', 'chevron-circle-right']} />
+                      <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />
     </Button>
 
                      
