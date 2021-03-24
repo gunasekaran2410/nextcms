@@ -1,7 +1,6 @@
 import Head from "next/head"
 import { Component } from 'react'
 import { attributes, react as HomeContent } from '../content/home.md';
-import Image from 'next/image'
 
 export default class Home extends Component {
   render() {
@@ -22,7 +21,6 @@ export default class Home extends Component {
               </li>
             ))}
           </ul>
-          <Image width="100" height="100"  src="/test.jpg"/>
         </article>
       </>
     )
