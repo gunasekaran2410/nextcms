@@ -19,4 +19,5 @@ collections:
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
+            - { label: "Body", name: "body", widget: "markdown"}
             - { label: "Description", name: "description", widget: "text"}
