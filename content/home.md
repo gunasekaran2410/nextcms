@@ -12,6 +12,16 @@ contents:
   - name: "Cloud Computing "
     description: " Cloud computing enables organisations to utilise the power of
       Internet and lower their costs. "
+  - name: "Quality Assurance "
+    description: " Product sustainably and usage depends on quality process and bug
+      free code. "
+  - name: "Development Operations "
+    description: " The IT services typically are to maintain websites, servers,
+      databases, maintain source code, build CI/CD processes, automate builds,
+      containerise applications, deploying to cloud. "
+  - name: RESEARCH & DEVELOPMENT
+    description: We work with AI, Machine Learning, Computer Vision, Augmented
+      Reality using mobile apps for research and development.
 what_we_do: []
 ---
 welcome to **inovark tech** This page is built with NextJS, and content is managed in Netlify CMS,
