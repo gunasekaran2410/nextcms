@@ -58,8 +58,6 @@ export default function Home() {
                       Read more &nbsp;&nbsp;&nbsp; 
                      
                       <FontAwesomeIcon icon={['fas', 'chevron-circle-right']} />
-
-
     </Button>
 
                      
