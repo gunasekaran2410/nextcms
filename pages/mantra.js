@@ -29,8 +29,7 @@ export default class Mantra extends Component {
 <tbody>
   <tr>
     <td className={styles.border_none}>
-      {/* <Image width="60" height="60" src="/images/innovate.svg"/> */}
-      <img width="60" height="60"  src={mantra.hero_image} alt='hero image' />
+      <img width="60" height="60"  src={mantra.hero_image} alt='Mantra image' />
     </td>
     <td className={styles.border_none}>
       <h4>{mantra.name}</h4>

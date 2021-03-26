@@ -3,7 +3,6 @@ import Head from "next/head"
 import { attributes, react as HomeContent } from '../content/home.md';
 import Navigation from '../components/Nav';
 import styles from './Index.module.css'
-import Slide from "../components/Slide";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -20,6 +19,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Mantra from "./mantra";
+import Slide from "./Slide";
 
 // import your icons
 
@@ -35,7 +35,7 @@ export default function Home() {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <Navigation/>
-        <Slide/>
+       <Slide/>
         <section className={styles.section}>
        
        <div className="text-center">
@@ -52,7 +52,7 @@ export default function Home() {
                   <div >
                
 
-                    {/* <Image layout="responsive" src="/images/what_we/product_development.png" width="200" height="200" alt="product development" />  */}
+                    <img layout="responsive"  src={li.what_we_do_images} alt='What we do image' width="60" height="60" alt="product development" /> 
                       <h1  className={styles.product_text}>{li.name}</h1>
                       <p  className={styles.h_125}> {li.description}</p>
                       </div>

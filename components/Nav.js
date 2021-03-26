@@ -15,7 +15,7 @@ function Navigation(){
             <div className="container">
   <Navbar.Brand href="#home" className="nav_left">  
   
-    {/* <Image src="/images/logo.png" width="238" height="80" alt="Logo"/> */}
+    <img src="/images/logo.png" width="238" height="80" alt="Logo"/>
 
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
