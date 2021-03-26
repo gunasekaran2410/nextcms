@@ -31,10 +31,5 @@ collections:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
             - label: "Mantra"
-    - label: "Slides"        
-      name: "slide"
-      file: "content/slide.md"
-      fields:
-        - { label: "Name", name: "name", widget: "string"}
-        - { label: "image", name: 'slide1_image', widget: 'image'}
+   
      

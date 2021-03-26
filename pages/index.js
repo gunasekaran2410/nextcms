@@ -19,7 +19,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Mantra from "./mantra";
-import Slide from "./Slide";
+import Slide from "../components/Slide";
 
 // import your icons
 
