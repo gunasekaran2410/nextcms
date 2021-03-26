@@ -19,3 +19,5 @@ mantras:
     name: ITERATE
 ---
  .
+
+![sdfsfs](img/giphy.gif "dfsfsdfsf")
