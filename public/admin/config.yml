@@ -30,7 +30,7 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
-             - label: "Mantra"
+            - label: "Mantra"
     - label: "Slides"        
       name: "slide"
       file: "content/slide.md"
