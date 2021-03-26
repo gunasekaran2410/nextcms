@@ -1,10 +1,21 @@
 ---
-title: Awesome kitties
+title: OUR MANTRA
 mantras:
-  - description: 'Maru is a Scottish Fold from Japan, and he loves boxes.'
-    name: Maru (まる)
-  - description: Lil Bub is an American celebrity mantra known for her unique appearance.
-    name: Lil Bub
-  - description: 'Grumpy mantra is an American celebrity mantra known for her grumpy appearance.'
-    name: Grumpy mantra (Tardar Sauce)
+  - description: >+
+      Innovation is the ability to see change as an opportunity that unlocks new
+      value. There is a way to do it better – we are finding it.
+
+    name: INNOVATE
+  - description: An Innovation idea needs the right implementation to find success.
+      It is not just the action, but right action determines the product fate.
+      We focus on the right way of building the product with the right
+      technology.
+    name: IMPLEMENT
+  - description: Change is the only thing that is constant. A product that does not
+      iterate has an expiry date tagged to it as soon as it comes out. Through
+      an iterative process, we can keep the original focus, validating for
+      current situations, helping us keep the ideas fresh and products
+      competitive.
+    name: ITERATE
 ---
+ .
