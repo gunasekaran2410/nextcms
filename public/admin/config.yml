@@ -20,7 +20,6 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
-    files:
     - label: "Mantra"
       name: "mantra"
       file: "content/mantra.md"
