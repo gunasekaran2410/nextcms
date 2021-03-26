@@ -36,10 +36,4 @@ collections:
       file: "content/slide.md"
       fields:
         - { label: "image", name: 'slide1_image', widget: 'image'}
-        - label: 'Mantra'
-          name: "mantras"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            
+     
