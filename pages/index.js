@@ -50,7 +50,7 @@ export default function Home() {
     <Col xs={12} sm={6} md={4} key={k}>
                 <article className={styles.thumb}>
                   <div >
-                  <img src={attributes.hero_image} alt='hero image' />
+               
 
                     {/* <Image layout="responsive" src="/images/what_we/product_development.png" width="200" height="200" alt="product development" />  */}
                       <h1  className={styles.product_text}>{li.name}</h1>
