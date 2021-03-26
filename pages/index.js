@@ -10,8 +10,6 @@ import Col from 'react-bootstrap/Col'
 // import Image from 'next/image'
 import Button from 'react-bootstrap/Button'
 import ListGroup from 'react-bootstrap/ListGroup'
-import Card from 'react-bootstrap/Card'
-import Table from 'react-bootstrap/Table'
 // import ClientSlide from '../components/ClientSlide';
 // import Footer from '../components/Footer'
 import { useRouter } from 'next/router'
@@ -21,6 +19,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import Mantra from "./mantra";
 
 // import your icons
 
@@ -30,6 +29,7 @@ library.add(fas);
 export default function Home() {
   const router = useRouter()
   let { title, contents } = attributes;
+
   return <div>
      <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -39,7 +39,7 @@ export default function Home() {
         <section className={styles.section}>
        
        <div className="text-center">
-<h3 className={styles.padding}  >{title}
+<h3 className={styles.padding}> {title}
 </h3>
        </div>
        <Container>
@@ -59,12 +59,12 @@ export default function Home() {
                       <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />
     </Button>
 
-                     
                       </article>
     </Col>
     
   
-      ))}
+      )
+      )}
   </Row>
   
 </Container>
@@ -121,69 +121,9 @@ export default function Home() {
   </ListGroup>
     </div>
   <br></br><br></br>
-    <h3 className={styles.padding}> OUR MANTRA </h3>
-  <Row>
-  <Card className={styles.margin_10}>
-    <Card.Body className={styles.padding_10}>
-    <Table className={styles.table}>
-    <tbody>
-      <tr>
-        <td className={styles.border_none}>
-          {/* <Image width="60" height="60" src="/images/innovate.svg"/> */}
-        </td>
-        <td className={styles.border_none}>
-          <h4>INNOVATE</h4>
-          <p className={styles.paragraph}>
-          Innovation is the ability to see change as an opportunity that unlocks new value. There is a way to do it better – we are finding it.s
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-    </Card.Body>
-  </Card>
-  
-  <Card className={styles.margin_10}>
-    <Card.Body className={styles.padding_10}>
-    <Table className={styles.table}>
-    <tbody>
-      <tr>
-        <td className={styles.border_none}>
-          {/* <Image width="80" height="80" src="/images/implementation.svg"/> */}
-        </td>
-        <td className={styles.border_none}>
-          <h4>IMPLEMENT</h4>
-          <p className={styles.paragraph}>
-          An Innovation idea needs the right implementation to find success. It is not just the action, but right action determines the product fate. We focus on the right way of building the product with the right technology.
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-    </Card.Body>
-  </Card>
-  
-  <Card className={styles.margin_10}>
-    <Card.Body className={styles.padding_none}>
-    <Table className={styles.table}>
-    <tbody>
-      <tr>
-        <td className={styles.border_none}>
-          {/* <Image width="120" height="120" src="/images/iteration.svg"/> */}
-        </td>
-        <td className={styles.border_none}>
-          <h4>ITERATE</h4>
-          <p className={styles.paragraph}>
-          Change is the only thing that is constant. A product that does not iterate has an expiry date tagged to it as soon as it comes out. Through an iterative process, we can keep the original focus, validating for current situations, helping us keep the ideas fresh and products competitive.
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-    </Card.Body>
-  </Card>
-  </Row>
-  
+ 
+
+  <Mantra/>
   </Container>
   
   <br/>

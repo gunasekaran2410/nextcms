@@ -24,6 +24,3 @@ contents:
       Reality using mobile apps for research and development.
 what_we_do: []
 ---
-
-
-![]()
