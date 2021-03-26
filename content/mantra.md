@@ -1,8 +1,8 @@
 ---
 title: OUR MANTRA
-hero_image: images/qualtiy-assurance1.png
+hero_image: images/bigdata.png
 mantras:
-  - description: >+
+  - description: >
       Innovation is the ability to see change as an opportunity that unlocks new
       value. There is a way to do it better – we are finding it.
     name: INNOVATE
