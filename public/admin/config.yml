@@ -35,5 +35,6 @@ collections:
       name: "slide"
       file: "content/slide.md"
       fields:
+        - { label: "Name", name: "name", widget: "string"}
         - { label: "image", name: 'slide1_image', widget: 'image'}
      
