@@ -5,6 +5,8 @@ import styles from './Index.module.css'
 import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Table from 'react-bootstrap/Table'
+// import Image from 'next/image'
+
 export default class Mantra extends Component {
   render() {
     let { title, mantras } = attributes;
