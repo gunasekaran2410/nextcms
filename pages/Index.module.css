@@ -299,6 +299,7 @@
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
+    margin-bottom: 1rem;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     background-color: #fff;
@@ -319,7 +320,7 @@
 .mission_content{
     font-size: 15px;
     padding: 1rem;
-    height: 70px;
+    min-height: 70px;
     text-align: center;
 }
 .person{
@@ -330,10 +331,9 @@
     margin: 10px;
     border-radius: 6px;
     text-align: justify;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-size: 14px;
-    padding-right: 15px;
+    width: 100%;
+    padding: 0;
 }
 
 /* products page */

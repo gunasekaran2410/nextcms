@@ -30,5 +30,24 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
-            
+    - label: "About"
+      name: "about"
+      file: "content/about.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Description" name: "description", widget: "text"}
+        - { label: "image", name: 'mission_image', widget: 'image'}
+        - label: 'About'
+          name: "aboutUs"
+          widget: aboutList
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}  
+            - { label: "image", name: 'mission_image', widget: 'image'}      
+             - label: 'About'
+          name: "management"
+          widget: managementDetails
+          fields:
+            - { label: "Description", name: "description", widget: "text"}  
+            - { label: "image", name: 'mange_image', widget: 'image'}
             

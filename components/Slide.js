@@ -10,11 +10,6 @@ function Slide(){
        
 <Carousel fade className={styles.slide}>
   <Carousel.Item>
-    {/* <img
-      className="d-block w-100"
-      src="http://www.inovark.com/assets/images/slides/market%20share.jpg"
-      alt="First slide"
-    /> */}
     <img src="/images/slides/market share.jpg"  width="1920" height="538"  />
  
   </Carousel.Item>

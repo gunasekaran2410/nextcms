@@ -6,11 +6,10 @@ import styles from './Index.module.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-// import Image from 'next/image'
 import Button from 'react-bootstrap/Button'
 import ListGroup from 'react-bootstrap/ListGroup'
-// import ClientSlide from '../components/ClientSlide';
-// import Footer from '../components/Footer'
+import ClientSlide from '../components/ClientSlide';
+import Footer from '../components/Footer'
 import { useRouter } from 'next/router'
 
 // import the library
@@ -132,8 +131,22 @@ export default function Home() {
   <br/>
   
   </section>
-     
+     <ClientSlide/>
 
+
+  <section className={styles.section}>
+  <Container>
+  <h3 className={styles.padding}> OUR TECHNOLOGIES
+  
+   </h3>
+  <p className={styles.text_center}> WE TRUST IN LONG LASTING PARTNERSHIPS WITH THE MOST IMPORTANT BRANDS ON THE MARKET
+  </p>
+  
+  <img src="/images/tech.png" className={styles.img_line} />
+  </Container>
+  </section>
+  <br/><br/><br/>
+  <Footer/>
 
   </div>
 }

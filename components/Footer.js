@@ -36,7 +36,7 @@ function Footer(){
           <Row>
     <Col>
     <div className={styles.text_center}>
-{/* <Image src="/images/inovark tech.png" width="238" height="80" /> */}
+<img src="/images/inovark tech.png" width="238" height="80" />
     </div>
     <div className={styles.text_center}>
         <div className={styles.gray_color}>   <FontAwesomeIcon icon={['fas', 'envelope']} />   info@inovark.com</div>
@@ -66,22 +66,22 @@ function Footer(){
   <Row>
       <Col md={4} className={style.col}>
       <div className={styles.text_center}>
-             {/* <Image className={styles.round} src="/images/footer/1.jpg" width="80" height="80" /> */}
+             <img className={styles.round} src="/images/footer/1.jpg" width="80" height="80" />
       </div>
       </Col>
       <Col md={4} className={style.col}>
       <div className={styles.text_center}>
-             {/* <Image className={styles.round} src="/images/footer/2.jpg" width="80" height="80" /> */}
+             <img className={styles.round} src="/images/footer/2.jpg" width="80" height="80" />
       </div>
       </Col>
       <Col md={4} className={style.col}>
       <div className={styles.text_center}>
-             {/* <Image className={styles.round} src="/images/footer/3.jpg" width="80" height="80" /> */}
+             <img className={styles.round} src="/images/footer/3.jpg" width="80" height="80" />
       </div>
       </Col>
       <Col md={4} className={style.col}>
       <div className={styles.text_center}>
-             {/* <Image className={styles.round1} src="/images/footer/4.jpg" width="80" height="80" /> */}
+             <img className={styles.round1} src="/images/footer/4.jpg" width="80" height="80" />
       </div>
       </Col>
   </Row>
@@ -90,13 +90,13 @@ function Footer(){
     <div className={styles.foot_title}>SOCIAL SHARE </div>
     <ul className={styles.social}>
         <li>
-           {/* <Image src="/images/social/twitter.svg" width="17" height="17"/> */}
+           <img src="/images/social/twitter.svg" width="17" height="17"/>
         </li>
         <li>
-        {/* <Image src="/images/social/twitter.svg" width="17" height="17"/> */}
+        <img src="/images/social/twitter.svg" width="17" height="17"/>
         </li>
         <li>
-        {/* <Image src="/images/social/twitter.svg" width="17" height="17"/> */}
+        <img src="/images/social/twitter.svg" width="17" height="17"/>
         </li>
     </ul>
     </Col>
