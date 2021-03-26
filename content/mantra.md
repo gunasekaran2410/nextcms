@@ -1,6 +1,5 @@
 ---
 title: OUR MANTRA
-hero_image: images/qualtiy-assurance1.png
 mantras:
   - description: >
       Innovation is the ability to see change as an opportunity that unlocks new
