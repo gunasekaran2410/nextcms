@@ -30,6 +30,5 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
-            - label: "Mantra"
-   
-     
+            
+            
