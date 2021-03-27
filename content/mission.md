@@ -1,24 +1,19 @@
 ---
-title: OUR MANTRA
-sectionTitle: MISSION & VISION(COMMITTED TO EXCELLENCE)
+title: A GREAT COMPANY STARTS WITH US
+sectionTitle: |
+  MISSION & VISION(COMMITTED TO EXCELLENCE)
+mission_image: images/mission.png
 missions:
-  - description: >
-      Innovation is the ability to see change as an opportunity that unlocks new
-      value. There is a way to do it better – we are finding it.
-    name: INNOVATE
+  - description: Make Technology an asset for your business
+    name: Our Mission
     mission_image: images/innovate.svg
-  - description: An Innovation idea needs the right implementation to find success.
-      It is not just the action, but right action determines the product fate.
-      We focus on the right way of building the product with the right
-      technology.
-    name: IMPLEMENT
+  - description: Always Innovate for the feature
+    name: Our Vision
     mission_image: images/implementation.svg
-  - description: Change is the only thing that is constant. A product that does not
-      iterate has an expiry date tagged to it as soon as it comes out. Through
-      an iterative process, we can keep the original focus, validating for
-      current situations, helping us keep the ideas fresh and products
-      competitive.
-    name: ITERATE
+  - description: Quality is the Norm and not an afterthought
+    name: Quality Policy
     mission_image: images/iteration.svg
+  - name: Customer Policy
+    description: |
+      Customer as a partner
 ---
- 
