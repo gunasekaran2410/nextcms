@@ -15,11 +15,11 @@ function About() {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <Navigation/>
-        <AboutContent/>
+      
         <section className={styles.sub_bnr}>
         <h1> {title}</h1>
         </section>
-
+        <AboutContent/>
 {/* mission & vision  */}
 <div>
          
