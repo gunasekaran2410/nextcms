@@ -4,7 +4,7 @@ management_image: images/manikandan.jpg
 managements:
   - description: >
       The foundation stone of Inovark Technologies has been laid by our dynamic
-      leader Manikandan Meenakshi Sundaram.
+      leader Manikandan Meenakshi Sundaram.2
   - description: With 22+ years of experience in the Technology industry, Mani
       possesses veteran skills to astutely discover the manifold opportunities
       to achieve the business objectives & maintain quality.
