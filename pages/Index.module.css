@@ -280,7 +280,7 @@
     background-size: cover;
     min-height: 380px;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
 }
 .sub_bnr h1{
     color: #fff;
@@ -343,7 +343,7 @@
     background-size: cover;
     min-height: 380px;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
 }
 .product_bnr h1{
     color: #fff;
@@ -364,7 +364,7 @@
 .services_bnr{
     background: url(/images/bg/Services.jpg) no-repeat;
     background-size: cover;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
     min-height: 380px;
     text-align: center;
 }
@@ -411,7 +411,7 @@
     background: url(/images/bg/carerrs.jpg) no-repeat;
     background-size: cover;
     min-height: 380px;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
     text-align: center;
 }
 .careers_bnr h1{
@@ -464,7 +464,7 @@
 .contact_bnr{
     background: url(/images/bg/contact.jpg) no-repeat;
     background-size: cover;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
 }
 .bg_black{
     background-color: rgba(0, 0, 0, 0.46);
