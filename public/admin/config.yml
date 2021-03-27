@@ -43,6 +43,17 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+    - label: "Management"
+      name: "management"
+      file: "content/Management.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "image", name: 'management_image', widget: 'image'}
+        - label: 'Management'
+          name: "managements"
+          widget: list
+          fields:
+            - { label: "Description", name: "description", widget: "text"}
             
   
             
