@@ -9,7 +9,7 @@ import { attributes, react as AboutContent } from '../content/about.md';
 
 
 function About() {
-    let { title, sectionTitle,  aboutUs } = attributes;
+    let { title, sectionTitle, about_us } = attributes;
     return <div>
           <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -32,18 +32,18 @@ function About() {
 <section>
 <Container>
 <Row>
-{aboutUs.map((aboutList, k) => (
+{about_us.map((about_list, k) => (
 
     <Col md={3} key={k} >
         <div className={styles.mission_box}>
         <div className={styles.mission_box_title}>
-         {aboutList.name}
+         {about_list.name}
  </div>
 <div className={styles.mission_card_body}>
-    <img height="96" width="96"  src={aboutList.mission_image} alt='about image' />
+    <img height="96" width="96"  src={about_list.mission_image} alt='about image' />
 </div>
 <div className={styles.mission_content}>
-    {aboutList.description}
+    {about_list.description}
     </div>
 
         </div>

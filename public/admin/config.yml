@@ -38,8 +38,8 @@ collections:
         - { label: "Description", name: "description", widget: "text"}
         - { label: "Section Title", name: "sectionTitle", widget: "string"}
         - label: 'Mission'
-          name: "aboutUs"
-          widget: aboutList
+          name: "about_us"
+          widget: about_list
           fields:
             - { label: "Title", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}  
