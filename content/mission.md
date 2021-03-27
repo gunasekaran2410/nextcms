@@ -1,7 +1,7 @@
 ---
 title: OUR MANTRA
-# sectionTitle: MISSION & VISION(COMMITTED TO EXCELLENCE)
-about_us:
+sectionTitle: MISSION & VISION(COMMITTED TO EXCELLENCE)
+missions:
   - description: >
       Innovation is the ability to see change as an opportunity that unlocks new
       value. There is a way to do it better – we are finding it.
