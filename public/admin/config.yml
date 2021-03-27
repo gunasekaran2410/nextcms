@@ -36,12 +36,12 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Description", name: "description", widget: "text"}
-        - { label: "Section Title", name: "sectionTitle", widget: "string"}
+        # - { label: "Section Title", name: "sectionTitle", widget: "string"}
         - label: 'Mission'
           name: "abouts"
           widget: about
           fields:
-            - { label: "Title", name: "name", widget: "string"}
+            - { label: "Title", name: "title", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}  
             - { label: "image", name: 'mission_image', widget: 'image'}      
        
