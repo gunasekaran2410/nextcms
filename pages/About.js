@@ -34,6 +34,7 @@ export default function About() {
 <Row>
 {abouts.map((about, k) => (
 
+
     <Col md={3} key={k} >
         <div className={styles.mission_box}>
         <div className={styles.mission_box_title}>
