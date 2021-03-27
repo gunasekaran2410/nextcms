@@ -37,7 +37,7 @@ collections:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Section Title", name: 'sectionTitle', widget: 'text'}
         - label: 'About'
-          name: "abouts"
+          name: "about_us"
           widget: about
           fields:
             - { label: "Name", name: "name", widget: "string"}

@@ -1,18 +1,19 @@
 import Navigation from '../components/Nav';
 import styles from './Index.module.css'
+import Head from "next/head"
 import { Component } from 'react'
+import { attributes, react as AboutContent } from '../content/about.md';
 import Head from "next/head";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Footer from '../components/Footer';
-import { attributes, react as AboutContent } from '../content/about.md';
 
 
 export default class About extends Component {
 
     render(){
-        let { title, sectionTitle, abouts } = attributes;
+        let { title, sectionTitle, about_us } = attributes;
         return (
             <>
  <Head>
@@ -33,7 +34,7 @@ export default class About extends Component {
  <br/>
 <Container>
 <Row>
-{abouts.map((about, k) => (
+{about_us.map((about, k) => (
 
 
     <Col md={3} key={k} >
