@@ -11,6 +11,6 @@ founders:
   - details: " The foundation stone of Inovark Technologies has been laid by our
       dynamic leader Manikandan Meenakshi Sundaram. "
     mange_image: images/manikandan.jpg
-description: d
+description: Always Innovate for the feature
 mission_image: images/iteration.svg
 ---
