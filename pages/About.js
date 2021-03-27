@@ -80,10 +80,6 @@ function About() {
                 <p key={k}>
                {managementDetails.details}
                 </p>
-               
-              
-
-    
            </Col>
            <Col md={3}>
                <img src={managementDetails.mange_image} className={styles.person}  />
