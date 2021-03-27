@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Footer from '../components/Footer';
-import { attributes, react as AboutContent } from '../content/About.md';
+import { attributes, react as AboutContent } from '../content/about.md';
 
 
 export default class About extends Component {
