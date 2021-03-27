@@ -1,5 +1,6 @@
 import Navigation from '../components/Nav';
 import styles from './Index.module.css'
+import { Component } from 'react'
 import Head from "next/head";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -8,28 +9,28 @@ import Footer from '../components/Footer';
 import { attributes, react as AboutContent } from '../content/About.md';
 
 
-export default function About() {
-    let { title, sectionTitle, abouts } = attributes;
-    return <div>
-          <Head>
+export default class About extends Component {
+
+    render(){
+        let { title, sectionTitle, abouts } = attributes;
+        return (
+            <>
+ <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <Navigation/>
-        <AboutContent/>
         <section className={styles.sub_bnr}>
         <h1> {title}</h1>
         </section>
+        <br/>
+        <AboutContent/>
        
-{/* mission & vision  */}
-<div>
-         
-          <br/>
+        <section>
+        <br/>
 <h3 className={styles.padding}> 
-    {sectionTitle}
+{sectionTitle}
  </h3>
  <br/>
-         
-<section>
 <Container>
 <Row>
 {abouts.map((about, k) => (
@@ -56,21 +57,9 @@ export default function About() {
  </Container>
 </section>
 
+</>
+    )
+    }
 
-
-      </div>
-
-<section>
-
-
-
-
-
-</section>
-<br/><br/>
-
-<br/><br/>
-<Footer/>
-    </div>
   }
   
