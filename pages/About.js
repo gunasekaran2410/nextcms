@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import { attributes, react as AboutContent } from '../content/about.md';
 
 
-function About() {
+export default function About() {
     let { title, sectionTitle, abouts } = attributes;
     return <div>
           <Head>
