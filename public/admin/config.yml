@@ -35,7 +35,8 @@ collections:
       file: "content/mission.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "image", name: 'hero_image', widget: 'image'}
+        - { label: "Section Title", name: "sectionTitle", widget: "text"}
+        - { label: "image", name: 'mission_image', widget: 'image'}
         - label: 'Mission'
           name: "missions"
           widget: list
