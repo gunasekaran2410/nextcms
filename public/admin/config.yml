@@ -37,7 +37,7 @@ collections:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Description", name: "description", widget: "text"}
         - { label: "Section Title", name: "sectionTitle", widget: "string"}
-        - label: 'About'
+        - label: 'Mission'
           name: "aboutUs"
           widget: aboutList
           fields:
