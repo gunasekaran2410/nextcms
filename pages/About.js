@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col'
 export default class About extends Component {
 
     render(){
-        let { title, sectionTitle, about_us } = attributes;
+        let { title, about_us } = attributes;
         return (
             <>
  <Head>
@@ -28,13 +28,12 @@ export default class About extends Component {
         <section>
         <br/>
 <h3 className={styles.padding}> 
-{sectionTitle}
+{/* {sectionTitle} */}
  </h3>
  <br/>
 <Container>
 <Row>
 {about_us.map((about, k) => (
-
 
     <Col md={3} key={k} >
         <div className={styles.mission_box}>

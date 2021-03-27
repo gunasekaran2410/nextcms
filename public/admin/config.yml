@@ -35,7 +35,6 @@ collections:
       file: "content/about.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Section Title", name: 'sectionTitle', widget: 'text'}
         - label: 'About'
           name: "about_us"
           widget: about
