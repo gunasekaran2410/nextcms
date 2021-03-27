@@ -36,6 +36,7 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Description", name: "description", widget: "text"}
+        - { label: "Section Title", name: "sectionTitle", widget: "string"}
         - { label: "image", name: 'mission_image', widget: 'image'}
         - label: 'About'
           name: "aboutUs"
@@ -44,7 +45,7 @@ collections:
             - { label: "Title", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}  
             - { label: "image", name: 'mission_image', widget: 'image'}      
-        - label: 'About'
+        - label: 'About2'
           name: "management"
           widget: managementDetails
           fields:
