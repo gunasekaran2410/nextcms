@@ -12,5 +12,5 @@ founders:
       dynamic leader Manikandan Meenakshi Sundaram. "
     mange_image: images/manikandan.jpg
 description: d
-mission_image: images/mission.png
+mission_image: images/iteration.svg
 ---
