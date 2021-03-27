@@ -45,10 +45,10 @@ collections:
             - { label: "Title", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}  
             - { label: "image", name: 'mission_image', widget: 'image'}      
-        - label: 'About2'
-          name: "management"
-          widget: managementDetails
-          fields:
-            - { label: "Description", name: "description", widget: "text"}  
-            - { label: "image", name: 'mange_image', widget: 'image'}
+        # - label: 'About2'
+        #   name: "management"
+        #   widget: managementDetails
+        #   fields:
+        #     - { label: "Description", name: "description", widget: "text"}  
+        #     - { label: "image", name: 'mange_image', widget: 'image'}
             
