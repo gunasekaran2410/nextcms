@@ -45,7 +45,7 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
     - label: "Management"
       name: "management"
-      file: "content/Management.md"
+      file: "content/management.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "image", name: 'management_image', widget: 'image'}
