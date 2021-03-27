@@ -6,7 +6,7 @@ import { attributes, react as AboutContent } from '../content/about.md';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 
 export default class About extends Component {
@@ -19,12 +19,12 @@ export default class About extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <Navigation/>
+     
+        <AboutContent/>
         <section className={styles.sub_bnr}>
         <h1> {title}</h1>
         </section>
         <br/>
-        <AboutContent/>
-       
         <section>
         <br/>
 <h3 className={styles.padding}> 
