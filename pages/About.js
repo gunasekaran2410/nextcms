@@ -3,7 +3,6 @@ import styles from './Index.module.css'
 import Head from "next/head"
 import { Component } from 'react'
 import { attributes, react as AboutContent } from '../content/about.md';
-import Head from "next/head";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
