@@ -79,8 +79,8 @@ collections:
             - { label: "Service Title", name: "service_title", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Service image image", name: 'service_image', widget: 'image'}
-    - label: "Services"
-      name: "services"
+    - label: "Services1"
+      name: "services1"
       file: "content/service.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
