@@ -41,7 +41,7 @@ export default class Service extends Component {
         </p>
     </Col>
     <Col md={7}>
-        <img src={list.service_image} />
+        <img src={list.service_image} className={styles.img} />
     </Col>
 </Row>
         </div>
