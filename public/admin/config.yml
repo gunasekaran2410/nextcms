@@ -59,9 +59,8 @@ collections:
       file: "content/pro.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Section Title", name: "sectionTitle", widget: "text"}
-        - { label: "image", name: 'logo_image', widget: 'image'}
-        - { label: "image", name: 'product_image', widget: 'image'}
+        - { label: "Logo image", name: 'logo_image', widget: 'image'}
+        - { label: "Product image", name: 'product_image', widget: 'image'}
         - label: 'Pro'
           name: "pros"
           widget: list

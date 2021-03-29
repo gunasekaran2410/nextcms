@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container'
 
 export default class Mission extends Component {
   render() {
-    let { title, pros, sectionTitle, product_image, logo_image } = attributes;
+    let { title, pros,  product_image, logo_image } = attributes;
     return (
       <>
         <Head>
@@ -20,10 +20,8 @@ export default class Mission extends Component {
         </section>
         <br/>
         <section>
-        <br/>
-<h3 className={styles.padding}> 
-{sectionTitle}
- </h3>
+     
+
  <br/>
 <Container>
 <Row>
