@@ -9,4 +9,13 @@ services:
       them to have a successful mobile app business.
     service_title: MOBILE APP DEVELOPMENT
     service_image: images/mobileapp_develpment.jpg
+  - service_title: QUALITY ASSURANCE
+    description: Product sustainably and usage depends on quality process and bug
+      free code. Our well-defined testing process and quality assurance team
+      helps defining and creating testing strategy during the planning stages of
+      the work. Product areas for automation and manual testing are defined much
+      earlier in the software development cycle. Our emphasis on automating
+      testing for mobile and web applications, catches most of our bugs much
+      earlier in the development cycle resulting in a bug-free product.
+    service_image: images/quality-assurance.png
 ---
