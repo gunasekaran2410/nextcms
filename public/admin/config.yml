@@ -28,8 +28,8 @@ collections:
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
-            - { label: "image", name: 'hero_image', widget: 'image'}
             - { label: "Description", name: "description", widget: "text"}
+            - { label: "image", name: 'hero_image', widget: 'image'}
     - label: "Mission"
       name: "mission"
       file: "content/mission.md"
