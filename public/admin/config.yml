@@ -48,12 +48,12 @@ collections:
       file: "content/management.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "image", name: 'management_image', widget: 'image'}
         - label: 'Management'
           name: "managements"
           widget: list
           fields:
             - { label: "Description", name: "description", widget: "text"}
+            - { label: "image", name: 'management_image', widget: 'image'}
     - label: "Products"
       name: "pro"
       file: "content/pro.md"
