@@ -1,6 +1,6 @@
 ---
 title: MANAGEMENT (OUR FOUNDATION)
-management_image: images/giphy.gif
+management_image: images/manikandan.jpg
 managements:
   - description: >
       The foundation stone of Inovark Technologies has been laid by our dynamic
