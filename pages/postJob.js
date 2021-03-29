@@ -11,10 +11,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import React, { useEffect, useState } from "react";
-import Form from 'react-bootstrap/Form'
-import PostJob from './postJob'
-import Modal from 'react-bootstrap/Modal'
+
 // import your icons
 
 

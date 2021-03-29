@@ -97,7 +97,7 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - label: 'Carriers'
-          name: "services"
+          name: "jobs"
           widget: list
           fields:
             - { label: "Job Title", name: "job_title", widget: "string"}
