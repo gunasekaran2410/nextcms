@@ -72,7 +72,7 @@ collections:
       file: "content/service.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - label: 'Service Content'
+        - label: 'Service Content (left image right text)'
           name: "services"
           widget: list
           fields:
@@ -84,8 +84,8 @@ collections:
       file: "content/service.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - label: 'Service Content'
-          name: "services right"
+        - label: 'Service Content (Right image right text)'
+          name: "services1"
           widget: list
           fields:
             - { label: "Service Title", name: "service_title", widget: "string"}
