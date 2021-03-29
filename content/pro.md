@@ -1,7 +1,5 @@
 ---
 title: OUR PRODUCTS
-logo_image: images/isafe.png
-product_image: images/isafe-connect.jpg
 pros:
   - description: Our mobile based apps connect schools, teachers and parents. Always
       be connected to your children’s school and teachers, need to talk to
