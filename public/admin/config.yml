@@ -83,7 +83,6 @@ collections:
       name: "services page1"
       file: "content/service2.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
         - label: 'Service Content (Right image Left text)'
           name: "services"
           widget: list
@@ -92,4 +91,14 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "service image 2 image", name: 'service_image', widget: 'image'}
   
-            
+    - label: "PostJob"
+      name: "postJob"
+      file: "content/postJob.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - label: 'Carriers'
+          name: "services"
+          widget: list
+          fields:
+            - { label: "Job Title", name: "job_title", widget: "string"}
+            - { label: "Job Details", name: "description", widget: "text"}
