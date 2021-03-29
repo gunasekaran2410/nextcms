@@ -37,7 +37,7 @@ export default class Service extends Component {
       {list.service_title}
         </div>
         <p className={styles.service_content}>
-        {list.content}
+        {list.description}
         </p>
     </Col>
     <Col md={7}>
@@ -55,7 +55,7 @@ export default class Service extends Component {
 </section>
 
 
-{services1.map((list, k) => (
+{services1.map((listed, k) => (
     <section key={k}>
 <br/>
     <Container>
@@ -63,14 +63,14 @@ export default class Service extends Component {
 <Row>
     <Col md={5}>
         <div className={styles.service_title}>
-      {list.service_title}
+      {listed.service_title}
         </div>
         <p className={styles.service_content}>
-        {list.content}
+        {listed.description}
         </p>
     </Col>
     <Col md={7}>
-        <img src={list.product_image}  />
+        <img src={listed.product_image}  />
     </Col>
 </Row>
         </div>
