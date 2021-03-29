@@ -27,7 +27,7 @@ export default class Mission extends Component {
 {pros.map((list, k) => (
  <Container key={k}>
  <div className={styles.text_center}>
-<img src={list.logo_image} width="300" height="100" />
+<img src={list.logo_image}   />
     </div>
     <p className={styles.product_content}>
       {list.description}

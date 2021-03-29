@@ -23,12 +23,12 @@ collections:
       file: "content/mantra.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "image", name: 'hero_image', widget: 'image'}
         - label: 'Mantra'
           name: "mantras"
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
+            - { label: "image", name: 'hero_image', widget: 'image'}
             - { label: "Description", name: "description", widget: "text"}
     - label: "Mission"
       name: "mission"
@@ -36,13 +36,13 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Section Title", name: "sectionTitle", widget: "text"}
-        - { label: "image", name: 'mission_image', widget: 'image'}
         - label: 'Mission'
           name: "missions"
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+             - { label: "image", name: 'mission_image', widget: 'image'}
     - label: "Management"
       name: "management"
       file: "content/management.md"
