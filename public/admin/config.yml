@@ -67,6 +67,27 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Logo image", name: 'logo_image', widget: 'image'}
             - { label: "Product image", name: 'product_image', widget: 'image'}       
-         
+    - label: "Services"
+      name: "services"
+      file: "content/service.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - label: 'Service Content'
+          name: "services"
+          widget: list
+          fields:
+            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Service image image", name: 'service_image', widget: 'image'}
+    - label: "Services1"
+      name: "services1"
+      file: "content/service.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - label: 'Service Content'
+          name: "services right"
+          widget: list
+          fields:
+            - { label: "Description", name: "description", widget: "text"}
+            - { label: "service image 2 image", name: 'service_image', widget: 'image'}
   
             
