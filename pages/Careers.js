@@ -20,9 +20,9 @@ import PostJob from './postJob'
 library.add(fas);
 
 function Careers() {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const [lgShow, setLgShow] = useState(false);
+  // const [lgShow, setLgShow] = useState(false);
 
 
     return <div>
@@ -35,7 +35,7 @@ function Careers() {
 
        {/* modal */}
  
-
+{/* 
       <Modal
         size="lg"
         show={lgShow}
@@ -136,7 +136,7 @@ function Careers() {
   </Form>
 
         </Modal.Body>
-      </Modal>
+      </Modal> */}
 
        <br/>
       
