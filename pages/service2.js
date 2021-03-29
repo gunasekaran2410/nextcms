@@ -1,6 +1,6 @@
 import Head from "next/head"
 import { Component } from 'react'
-import { attributes, react as ServiceContent } from '../content/service.md';
+import { attributes, react as Service2Content } from '../content/service2.md';
 import styles from './Index.module.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -15,8 +15,9 @@ export default class Service extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
       
+      <Service2Content/>
 
-{services.map((listed, k) => (
+{services.map((list, k) => (
     <section key={k}>
 <br/>
     <Container>
@@ -24,14 +25,14 @@ export default class Service extends Component {
 <Row>
    
     <Col md={7}>
-        <img src={listed.service_image}  />
+        <img src={list.service_image}  />
     </Col>
     <Col md={5}>
         <div className={styles.service_title}>
-      {listed.service_title}
+      {list.service_title}
         </div>
         <p className={styles.service_content}>
-        {listed.description}
+        {list.description}
         </p>
     </Col>
 </Row>
