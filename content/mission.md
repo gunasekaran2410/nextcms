@@ -1,5 +1,6 @@
 ---
 title: A GREAT COMPANY STARTS WITH US
+mission_image: images/mission.png
 sectionTitle: |
   MISSION & VISION(COMMITTED TO EXCELLENCE)
 missions:
