@@ -3,13 +3,14 @@ title: OUR Services
 service_image: images/product/isafe.png
 product_image: images/isafe-connect.jpg
 services:
-  - description: Mobile apps are the need of the hour. It is not just the part of
-      developing the app, but as to what needs to be developed. A concrete
-      mobile strategy involves understanding the usage patterns of the user to
-      provide what it needs. We work with our customers to create a strategy for
-      them to have a successful mobile app business.
-    service_title: MOBILE APP DEVELOPMENT
-    service_image: images/mobileapp_develpment.jpg
+  - description: We make your Idea's into a Product. An idea is a seed. For it to
+      become a Product, it needs to be visualized, clarified, developed,
+      deployed and maintained. This is a long road and we walk with our
+      customers to make sure the end goal is achieved. With our knowledge and
+      experience in different business verticals and technical, we help achieve
+      their product needs.
+    service_title: PRODUCT DEVELOPMENT
+    service_image: images/product-design-services-.png
 services1:
   - description: Our mobile based apps connect schools, teachers and parents. Always
       be connected to your children’s school and teachers, need to talk to
