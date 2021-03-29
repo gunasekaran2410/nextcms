@@ -101,4 +101,4 @@ collections:
           widget: list
           fields:
             - { label: "Job Title", name: "job_title", widget: "string"}
-            - { label: "Job Details", name: "description", widget: "text"}
+            - { label: "Job Details", name: "job_description", widget: "text"}
