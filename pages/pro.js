@@ -36,9 +36,7 @@ export default class Mission extends Component {
          <div className={styles.text_center}>
 <img src={list.product_image} width="910" height="553" />
     </div>
-    <div className={styles.margin}>
-
-</div>
+    <div className={styles.margin}></div>
  </Container>
    
 )

@@ -61,17 +61,19 @@ collections:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Logo image", name: 'logo_image', widget: 'image'}
         - { label: "Product image", name: 'product_image', widget: 'image'}
-        - { label: "Logo image", name: 'logo_image1', widget: 'image'}
-        - { label: "Product image", name: 'product_image1', widget: 'image'}
         - label: 'Product Content'
           name: "pros"
           widget: list
           fields:
-            - { label: "Description", name: "description", widget: "text"}        
-        - label: 'Product Content 2'
+            - { label: "Description", name: "description", widget: "text"}       
+      fields:
+        - { label: "Logo image", name: 'logo_image1', widget: 'image'}
+        - { label: "Product image", name: 'product_image1', widget: 'image'}
+        - label: 'Product Content2'
           name: "pros1"
           widget: list1
           fields:
-            - { label: "Description", name: "description", widget: "text"}        
+            - { label: "Description", name: "description", widget: "text"}       
+         
   
             
