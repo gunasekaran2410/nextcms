@@ -18,6 +18,7 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+            - { label: "Icons", name: 'what_we_do_images', widget: 'image'}
     - label: "Mantra"
       name: "mantra"
       file: "content/mantra.md"

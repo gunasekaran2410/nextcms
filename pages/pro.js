@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container'
 
 export default class Mission extends Component {
   render() {
-    let { title, pros,  product_image1, logo_image1 } = attributes;
+    let { title, pros, } = attributes;
     return (
       <>
         <Head>
