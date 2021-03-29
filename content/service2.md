@@ -18,4 +18,10 @@ services:
       testing for mobile and web applications, catches most of our bugs much
       earlier in the development cycle resulting in a bug-free product.
     service_image: images/quality-assurance.png
+  - service_title: RESEARCH & DEVELOPMENT
+    description: We work with AI, Machine Learning, Computer Vision, Augmented
+      Reality using mobile apps for research and development. We use the above
+      to push the boundaries of traditional apps and see where we can work with
+      our customers to help support them with their product needs.
+    service_image: images/research_development.jpg
 ---
