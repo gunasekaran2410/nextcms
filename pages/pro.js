@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container'
 
 export default class Mission extends Component {
   render() {
-    let { title, pros,  } = attributes;
+    let { title, pros, pros1,  } = attributes;
     return (
       <>
         <Head>
@@ -35,6 +35,26 @@ export default class Mission extends Component {
          </p>
          <div className={styles.text_center}>
 <img src={list.product_image} width="910" height="553" />
+    </div>
+    <div className={styles.margin}>
+
+</div>
+ </Container>
+   
+)
+)}
+
+
+{pros1.map((list1, k) => (
+ <Container key={k}>
+ <div className={styles.text_center}>
+<img src={list1.logo_image1} width="300" height="100" />
+    </div>
+    <p className={styles.product_content}>
+      {list1.description}
+         </p>
+         <div className={styles.text_center}>
+<img src={list1.product_image1} width="910" height="553" />
     </div>
  </Container>
    
