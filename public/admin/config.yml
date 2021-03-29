@@ -76,6 +76,7 @@ collections:
           name: "services"
           widget: list
           fields:
+            - { label: "Service Title", name: "service_title", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Service image image", name: 'service_image', widget: 'image'}
     - label: "Services1"
@@ -87,6 +88,7 @@ collections:
           name: "services right"
           widget: list
           fields:
+            - { label: "Service Title", name: "service_title", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
             - { label: "service image 2 image", name: 'service_image', widget: 'image'}
   
