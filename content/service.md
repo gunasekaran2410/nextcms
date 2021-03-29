@@ -11,6 +11,13 @@ services:
       their product needs.
     service_title: PRODUCT DEVELOPMENT
     service_image: images/product-design-services-.png
+  - service_title: CLOUD COMPUTING
+    description: Cloud computing enables organizations to utilize the power of
+      Internet and lower their costs. With our technical acumen in cloud
+      platforms and vendors like Amazon AWS, Microsoft Azure, Google Cloud etc.,
+      we work with organizations to come up with a cloud migration strategy and
+      help them achieve the same.
+    service_image: images/cloud.png
 services1:
   - description: Our mobile based apps connect schools, teachers and parents. Always
       be connected to your children’s school and teachers, need to talk to
