@@ -1,5 +1,6 @@
 ---
 title: OUR MANTRA
+hero_image: images/innovate.svg
 mantras:
   - description: >
       Innovation is the ability to see change as an opportunity that unlocks new
