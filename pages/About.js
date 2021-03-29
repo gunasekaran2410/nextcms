@@ -1,5 +1,4 @@
 import Navigation from '../components/Nav';
-import styles from './Index.module.css'
 import Head from "next/head";
 import Footer from '../components/Footer';
 import Mission from './mission';
