@@ -12,6 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
+import Forms from '../components/Forms'
 // import your icons
 
 
@@ -48,8 +49,8 @@ export default class Mission extends Component {
              <p className={styles.job_content}>
                  {list.job_description}
              </p>
-
-             <Button variant="outline-primary" onClick={() => setLgShow(true)}>Apply</Button>{' '}
+<Forms/>
+             {/* <Button variant="outline-primary" onClick={() => setLgShow(true)}>Apply</Button>{' '} */}
              </div>
     </Col>
 )

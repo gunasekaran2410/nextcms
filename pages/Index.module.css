@@ -242,6 +242,7 @@
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
+    margin-right: 7px;
 }
 
 .size{
@@ -526,8 +527,11 @@
     display: inline-block;
 }
 .mail_icon{
-    font-size: 15px;
+    font-size: 12px;
     color: #666;
+    transform: rotate(106deg);
+    position: relative;
+    bottom: 2px;
 }
 .envelope_icon{
     color:#005faf;
@@ -543,4 +547,92 @@
 }
 .img{
     width: 100%;
+}
+.counter{
+    background: #005faf;
+    text-align: center;
+}
+.padding_top{
+    font-size: 29px;
+    margin: 0px;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.slide_ver{
+    background-color: #fff;
+}
+
+/* slides */
+
+@media(max-width:767px){
+    .web_view{
+        display: none !important;
+  
+    }
+    .mobile_view{
+        display: block !important;
+    }
+  }
+  @media(min-width:768px){
+    .web_view{
+        display: none !important;
+  
+    }
+    .mobile_view{
+        display: block !important;
+    }
+  }
+  @media(min-width:992px){
+    .web_view{
+        display: block !important;
+  
+    }
+    .mobile_view{
+        display: none !important;
+    }
+  }
+  @media(min-width:1200px){
+    .web_view{
+        display: block !important;
+  
+    }
+    .mobile_view{
+        display: none !important;
+    }
+  }
+  .client_inside{
+      list-style-type: none;
+      background-color: #fff;
+  }
+  .client_inside li{
+      display: inline-block;
+      
+  }
+  .text_white{
+      color: white;
+      margin-bottom: 1rem;
+  }
+  .social{
+      list-style-type: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  .social li{
+      display: inline-block;
+      margin: 0 3px;
+  }
+  .social1{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+.social1 li{
+    display: inline-block;
+    margin: 0 3px;
 }

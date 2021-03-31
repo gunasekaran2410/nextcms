@@ -13,7 +13,7 @@ function Navigation(){
           
             <Navbar bg="light" fixed="top" expand="lg" className={styles.shadow}>
             <div className="container">
-  <Navbar.Brand href="#home" className="nav_left">  
+  <Navbar.Brand href="/Home" className="nav_left">  
   
     <img src="/images/logo.png" width="238" height="80" alt="Logo"/>
 
