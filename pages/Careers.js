@@ -11,6 +11,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 
 import Footer from '../components/Footer'
 import PostJob from './postJob'
+import ContactForm from '../components/ContactForm'
 
 // import your icons
 
@@ -29,7 +30,7 @@ function Careers() {
         <Navigation/>
       
      <PostJob/>
-
+     <ContactForm />
       
 <Footer/>
 

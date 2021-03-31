@@ -1,11 +1,9 @@
 import Navigation from '../components/Nav';
 import styles from './Index.module.css'
-import Slide from "../components/Slide";
 import Head from "next/head";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import ContactForm from '../components/ContactForm'
 // import the library
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -138,8 +136,7 @@ Ponmar Road, venkatamanagalam, Chennai-600127<br/>
                 <br/>         <br/>         <br/>
             </Container>
 
-            <ContactForm />
-
+     
         </section>
        
        <Footer/>

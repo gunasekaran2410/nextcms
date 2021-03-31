@@ -49,7 +49,7 @@ export default class Mission extends Component {
              <p className={styles.job_content}>
                  {list.job_description}
              </p>
-<Forms/>
+{/* <Forms/> */}
              {/* <Button variant="outline-primary" onClick={() => setLgShow(true)}>Apply</Button>{' '} */}
              </div>
     </Col>

@@ -9,6 +9,12 @@ export default function ContactForm() {
           <input type="text" name="name" id="yourname" />
         </p>
         <p>
+          <label htmlFor="yourcontact">
+            Your Contact:
+          </label> <br />
+          <input type="text" name="contact" id="yourcontact" />
+        </p>
+        <p>
           <label htmlFor="youremail">
             Your Email:
           </label> <br />
