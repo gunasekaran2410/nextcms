@@ -11,24 +11,11 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { fas } from '@fortawesome/free-solid-svg-icons'
-document.querySelector("form").addEventListener("submit", handleSubmit);
 
 library.add(fas);
 
 function Forms() {
     const [lgShow, setLgShow] = useState(false);
-
-    const handleSubmit = (e) => {
-      e.preventDefault()
-      let myForm = document.getElementById('pizzaOrder');
-      let formData = new FormData(myForm)
-      fetch('/', {
-        method: 'POST',
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString()
-      }).then(() => console.log('Form successfully submitted')).catch((error) =>
-        alert(error))
-    }
   
     return (
       <>
@@ -74,29 +61,33 @@ function Forms() {
 
           <br/><br/>
 
+          <form name="contact" method="POST" action="/success" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+      <p>
+<input type="text" name="firstname" id="firstname" />
+        <label htmlFor="yourname">
+          Your Name:
+        </label> <br />
+        <input type="text" name="name" id="yourname" />
+      </p>
+      <p>
+        <label htmlFor="youremail">
+          Your Email:
+        </label> <br />
+        <input type="email" name="email" id="youremail" />
+      </p>
+      <p>
+        <label htmlFor="yourmessage">
+          Message:
+        </label> <br />
+        <textarea name="message" id="yourmessage"></textarea>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
 
-          <form name="contact" method="POST" data-netlify="true">
-         
-
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+        
 
           {/* <Form name="contact" method="POST" data-netlify="true">
  <Row>
