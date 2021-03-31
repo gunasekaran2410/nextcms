@@ -11,11 +11,24 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { fas } from '@fortawesome/free-solid-svg-icons'
+document.querySelector("form").addEventListener("submit", handleSubmit);
 
 library.add(fas);
 
 function Forms() {
     const [lgShow, setLgShow] = useState(false);
+
+    const handleSubmit = (e) => {
+      e.preventDefault()
+      let myForm = document.getElementById('pizzaOrder');
+      let formData = new FormData(myForm)
+      fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString()
+      }).then(() => console.log('Form successfully submitted')).catch((error) =>
+        alert(error))
+    }
   
     return (
       <>
