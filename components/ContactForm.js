@@ -1,19 +1,27 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
+import Button from 'react-bootstrap/Button'
 import styles from '../pages/Index.module.css';
 export default function ContactForm() {
     return (
       <form name="contact" method="POST" data-netlify="true" action="/success">
         <input type="hidden" name="form-name" value="contact" />
-<Container>
+        <Container>
+        <Card>
+  <Card.Header className={styles.card_header}>
+  Apply Job
+  </Card.Header>
+  <Card.Body>
+  
     <Row>
         <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourname">
              Name:
           </label> <br />
-          <input type="text" name="name" id="yourname" />
+          <input type="text" name="name" required className={styles.form_control} id="yourname" />
         </p>
         </Col>
         <Col md={4} sm={6} xs={12}>
@@ -21,7 +29,7 @@ export default function ContactForm() {
           <label htmlFor="yourcontact">
              Contact:
           </label> <br />
-          <input type="text" name="contact" id="yourcontact" />
+          <input type="text" name="contact" required  className={styles.form_control} id="yourcontact" />
         </p>
             </Col>
      
@@ -30,7 +38,7 @@ export default function ContactForm() {
           <label htmlFor="youremail">
              Email:
           </label> <br />
-          <input type="email" name="email" id="youremail" />
+          <input type="email" name="email" required className={styles.form_control} id="youremail" />
         </p>
             </Col>
 
@@ -39,7 +47,7 @@ export default function ContactForm() {
           <label htmlFor="yourcity">
              Contact:
           </label> <br />
-          <input type="text" name="city" id="yourcity" />
+          <input type="text" name="city" required className={styles.form_control} id="yourcity" />
         </p>
             </Col>
           
@@ -48,7 +56,7 @@ export default function ContactForm() {
           <label htmlFor="yourstate">
              State:
           </label> <br />
-          <input type="text" name="state" id="yourstate" />
+          <input type="text" name="state" required className={styles.form_control} id="yourstate" />
         </p>
             </Col>
 
@@ -57,16 +65,16 @@ export default function ContactForm() {
           <label htmlFor="yourdesignation">
              Previous Designation:
           </label> <br />
-          <input type="text" name="designation" id="yourdesignation" />
+          <input type="text" name="designation"  className={styles.form_control} id="yourdesignation" />
         </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="youyourself">
-             Previous Designation:
+          Say about yourself:
           </label> <br />
-          <input type="text" name="yourself" id="youryourself" />
+          <input type="text" name="yourself" className={styles.form_control} id="youryourself" />
         </p>
             </Col>
 
@@ -75,17 +83,21 @@ export default function ContactForm() {
           <label htmlFor="myfile">
            Resume :
           </label> <br />
-          <input type="file" name="myfile" id="myfile" placeholder="upload file" />
+          <input type="file" required name="myfile" id="myfile" placeholder="upload file" />
         </p>
             </Col>
             <Col md={12} sm={12} xs={12}>
-            <div className={styles.text_center}>
-            <button type="submit">Send</button>
+            <div className={styles.text_right}>
+   
+            <Button type="submit" variant="success" size="md">Submit</Button>{' '}
             </div>
             </Col>
     </Row>
+
+  </Card.Body>
+</Card>
+<br/>
 </Container>
-    
       </form>
     )
   }

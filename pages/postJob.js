@@ -37,6 +37,7 @@ export default class Mission extends Component {
         <section>
 
 <Container>
+<h3 className={styles.padding}> Join Our Team </h3>
 <Row>
 {jobs.map((list, k) => (
 
