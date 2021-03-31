@@ -60,26 +60,26 @@ function Forms() {
 
           <br/><br/>
 
-          <Form>
+          <Form name="contact" method="POST" data-netlify="true">
  <Row>
    <Col md={6} xs={12}>
    <Form.Group controlId="exampleForm.ControlInput1">
     <Form.Label>Full Name</Form.Label>
-    <Form.Control type="text" placeholder="Enter your Name" required />
+    <Form.Control type="text" id="name" placeholder="Enter your Name" required />
     
   </Form.Group>
    </Col>
    <Col md={6} xs={12}>
    <Form.Group controlId="exampleForm.ControlInput1">
     <Form.Label>Contact Number</Form.Label>
-    <Form.Control type="number" placeholder="Enter your Number" required />
+    <Form.Control type="number" id="number" placeholder="Enter your Number" required />
   </Form.Group>
    </Col>
 
    <Col md={6} xs={12}>
    <Form.Group controlId="exampleForm.ControlInput1">
     <Form.Label>Email Address</Form.Label>
-    <Form.Control type="email" placeholder="Enter your Email" required />
+    <Form.Control type="email" id="email" placeholder="Enter your Email" required />
   </Form.Group>
    </Col>
 
@@ -108,7 +108,7 @@ function Forms() {
    <Col md={12} xs={12}>
    <Form.Group controlId="exampleForm.ControlInput1">
     <Form.Label>Say about yourself</Form.Label>
-    <Form.Control as="textarea" rows={3} placeholder="Enter Say about yourself" />
+    <Form.Control as="textarea" id="message" rows={3} placeholder="Enter Say about yourself" />
   </Form.Group>
    </Col>
 
