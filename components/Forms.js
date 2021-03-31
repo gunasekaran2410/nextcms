@@ -62,24 +62,24 @@ function Forms() {
           <br/><br/>
 
 
-          <form name="contact" action="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
+          <form name="contact" method="POST" data-netlify="true">
+         
 
   <p>
-    <label htmlFor="name">Your Name: <input type="text" id="name" name="name" /></label>   
+    <label>Your Name: <input type="text" name="name" /></label>   
   </p>
   <p>
-    <label htmlFor="email" >Your Email: <input type="email" id="email" name="email" /></label>
+    <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label htmlFor="email" >File: <input type="file" id="myfile" name="myfile" placeholder="upload file" /></label>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
   </p>
   <p>
-    <label htmlFor="message">Message: <textarea name="message" id="message"></textarea></label>
+    <label>Message: <textarea name="message"></textarea></label>
   </p>
-  <div data-netlify-recaptcha="true">
-    
-  </div>
   <p>
     <button type="submit">Send</button>
   </p>
