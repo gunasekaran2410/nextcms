@@ -62,7 +62,7 @@ function Forms() {
           <br/><br/>
 
 
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" action="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
 
   <p>
@@ -71,10 +71,15 @@ function Forms() {
   <p>
     <label htmlFor="email" >Your Email: <input type="email" id="email" name="email" /></label>
   </p>
- 
+  <p>
+    <label htmlFor="email" >File: <input type="file" id="myfile" name="myfile" placeholder="upload file" /></label>
+  </p>
   <p>
     <label htmlFor="message">Message: <textarea name="message" id="message"></textarea></label>
   </p>
+  <div data-netlify-recaptcha="true">
+    
+  </div>
   <p>
     <button type="submit">Send</button>
   </p>
