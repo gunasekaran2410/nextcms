@@ -3,7 +3,6 @@ export default function ContactForm() {
       <form name="contact" method="POST" data-netlify="true" action="/success">
         <input type="hidden" name="form-name" value="contact" />
         <p>
-  <input type="text" name="firstname" id="firstname" />
           <label htmlFor="yourname">
             Your Name:
           </label> <br />
@@ -20,6 +19,12 @@ export default function ContactForm() {
             Message:
           </label> <br />
           <textarea name="message" id="yourmessage"></textarea>
+        </p>
+        <p>
+          <label htmlFor="myfile">
+           File:
+          </label> <br />
+          <input type="file" name="myfile" id="myfile" placeholder="upload file" />
         </p>
         <p>
           <button type="submit">Send</button>
