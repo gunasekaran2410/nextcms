@@ -660,3 +660,6 @@
     background-color: rgb(234 234 234);
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
+.label{
+    font-weight: 600;
+}

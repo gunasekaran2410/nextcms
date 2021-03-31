@@ -18,7 +18,7 @@ export default function ContactForm() {
     <Row>
         <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourname">
+          <label className={styles.label} htmlFor="yourname">
              Name:
           </label> <br />
           <input type="text" name="name" required className={styles.form_control} id="yourname" />
@@ -26,7 +26,7 @@ export default function ContactForm() {
         </Col>
         <Col md={4} sm={6} xs={12}>
              <p>
-          <label htmlFor="yourcontact">
+          <label htmlFor="yourcontact" className={styles.label}>
              Contact:
           </label> <br />
           <input type="text" name="contact" required  className={styles.form_control} id="yourcontact" />
@@ -35,7 +35,7 @@ export default function ContactForm() {
      
             <Col md={4} sm={6} xs={12}>
             <p>
-          <label htmlFor="youremail">
+          <label htmlFor="youremail" className={styles.label}>
              Email:
           </label> <br />
           <input type="email" name="email" required className={styles.form_control} id="youremail" />
@@ -44,7 +44,7 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourcity">
+          <label htmlFor="yourcity" className={styles.label}>
              Contact:
           </label> <br />
           <input type="text" name="city" required className={styles.form_control} id="yourcity" />
@@ -53,7 +53,7 @@ export default function ContactForm() {
           
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourstate">
+          <label htmlFor="yourstate" className={styles.label}>
              State:
           </label> <br />
           <input type="text" name="state" required className={styles.form_control} id="yourstate" />
@@ -62,7 +62,7 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourdesignation">
+          <label htmlFor="yourdesignation" className={styles.label}>
              Previous Designation:
           </label> <br />
           <input type="text" name="designation"  className={styles.form_control} id="yourdesignation" />
@@ -71,7 +71,7 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="youyourself">
+          <label htmlFor="youyourself" className={styles.label}>
           Say about yourself:
           </label> <br />
           <input type="text" name="yourself" className={styles.form_control} id="youryourself" />
@@ -80,7 +80,7 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
             <p>
-          <label htmlFor="myfile">
+          <label htmlFor="myfile" className={styles.label}>
            Resume :
           </label> <br />
           <input type="file" required name="myfile" id="myfile" placeholder="upload file" />
