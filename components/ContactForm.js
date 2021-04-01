@@ -29,7 +29,7 @@ export default function ContactForm() {
           <label htmlFor="yourcontact" className={styles.label}>
              Contact:
           </label> <br />
-          <input type="text" name="contact" required  className={styles.form_control} id="yourcontact" />
+          <input type="number" name="contact" required  className={styles.form_control} id="yourcontact" />
         </p>
             </Col>
      
@@ -45,9 +45,9 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourcity" className={styles.label}>
-             Contact:
+             City:
           </label> <br />
-          <input type="number" maxLength="10" name="city" required className={styles.form_control} id="yourcity" />
+          <input type="text" name="city" required className={styles.form_control} id="yourcity" />
         </p>
             </Col>
           
