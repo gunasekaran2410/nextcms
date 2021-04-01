@@ -21,7 +21,7 @@ export default class Mission extends Component {
         <br/>
         <section>
         <br/>
-<h3 className={styles.padding}> 
+<h3 className={styles.inner_title}> 
 {sectionTitle}
  </h3>
  <br/>

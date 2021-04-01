@@ -17,7 +17,7 @@ export default class Mantra extends Component {
         </Head>
       
 
-        <h3 className={styles.padding}> {title} </h3>
+        <h3 className={styles.inner_title}> {title} </h3>
   <Row>
   <MantraContent />
 

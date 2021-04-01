@@ -47,7 +47,7 @@ export default function ContactForm() {
           <label htmlFor="yourcity" className={styles.label}>
              Contact:
           </label> <br />
-          <input type="text" name="city" required className={styles.form_control} id="yourcity" />
+          <input type="number" maxLength="10" name="city" required className={styles.form_control} id="yourcity" />
         </p>
             </Col>
           

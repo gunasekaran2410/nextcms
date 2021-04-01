@@ -38,7 +38,7 @@ export default function Home() {
         <section className={styles.section}>
        
        <div className="text-center">
-<h3 className={styles.padding}> {title}
+<h3 className={styles.inner_title}> {title}
 </h3>
        </div>
        <Container>
@@ -75,7 +75,7 @@ export default function Home() {
   
 
   <Container>
-  <h3 className={styles.padding}> WHY US </h3>
+  <h3 className={styles.inner_title}> WHY US </h3>
 
    <ul className={styles.main_list}>
      <li>
@@ -133,7 +133,7 @@ export default function Home() {
 
   <section className={styles.section}>
   <Container>
-  <h3 className={styles.padding}> OUR TECHNOLOGIES
+  <h3 className={styles.inner_title}> OUR TECHNOLOGIES
   
    </h3>
   <p className={styles.text_center}> WE TRUST IN LONG LASTING PARTNERSHIPS WITH THE MOST IMPORTANT BRANDS ON THE MARKET

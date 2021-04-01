@@ -19,7 +19,7 @@ export default class Management extends Component {
             <Container>
                 <ManagementContent/>
                       
-<h3 className={styles.padding}> 
+<h3 className={styles.inner_title}> 
 {title}
  </h3>
  <Row>
