@@ -15,9 +15,9 @@ export default class Service extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
       
-        <section className={styles.product_bnr}>
+        <section className={styles.services_bnr}>
             
-        <h1> {title}</h1>
+        <h1  className={styles.sec_content}> {title}</h1>
         </section>
         <br/>
         <ServiceContent/>

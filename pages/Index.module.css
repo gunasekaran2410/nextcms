@@ -259,22 +259,12 @@
 
 /* About us page */
 .sub_bnr {
-    background: url(/images/bg/About.jpg) no-repeat;
+    background: url(/images/bg/abg.png) no-repeat;
     background-size: cover;
-    min-height: 380px;
     text-align: center;
-    margin-top: 6.5rem;
+    min-height: 230px;
 }
-.sub_bnr h1{
-    color: #fff;
-    font-size: 52px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0 auto;
-    position: relative;
-    top: 150px;
-    margin-top: 0%;
-}
+
 .mission_box{
     position: relative;
     display: flex;
@@ -324,20 +314,10 @@
 .product_bnr{
     background: url(/images/bg/Products.jpg) no-repeat;
     background-size: cover;
-    min-height: 380px;
     text-align: center;
-    margin-top: 6.5rem;
+    min-height: 230px;
 }
-.product_bnr h1{
-    color: #fff;
-    font-size: 52px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0 auto;
-    position: relative;
-    top: 150px;
-    margin-top: 0%;
-}
+
 .product_content{
     padding: 1rem 0;
 }
@@ -347,20 +327,11 @@
 .services_bnr{
     background: url(/images/bg/Services.jpg) no-repeat;
     background-size: cover;
-    margin-top: 6.5rem;
-    min-height: 380px;
     text-align: center;
+    min-height: 230px;
 }
-.services_bnr h1{
-    color: #fff;
-    font-size: 52px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0 auto;
-    position: relative;
-    top: 150px;
-    margin-top: 0%;
-}
+
+
 .service_card{
     position: relative;
     display: flex;
@@ -391,21 +362,16 @@
 }
 /* careers */
 .careers_bnr{
-    background: url(/images/bg/carerrs.jpg) no-repeat;
+    background: url(/images/bg/About.jpg) no-repeat;
     background-size: cover;
-    min-height: 380px;
-    margin-top: 6.5rem;
     text-align: center;
+    min-height: 230px;
 }
-.careers_bnr h1{
-    color: #fff;
-    font-size: 52px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0 auto;
-    position: relative;
-    top: 150px;
-    margin-top: 0%;
+.product_image{
+    width: 100%;
+}
+.pro_image{
+    width: 100%;
 }
 .job_box{
     background: #FFF;
@@ -725,7 +691,26 @@
     }
   
   }
-
+  @media(max-width:500px){
+    .list{
+        list-style-type: none;
+        position: unset;
+       
+    }
+    .foot_list{
+        text-align: center;
+    }
+    .foot_title{
+        text-align: center;
+    }
+    .sec_content{
+        font-size: 25px;
+    }
+    .sub_bnr {
+        min-height: 250px;
+        margin-top: 3.5rem;
+    }
+  }
 
   @media(max-width:767px){
     .list{
@@ -738,6 +723,13 @@
     }
     .foot_title{
         text-align: center;
+    }
+    .sec_content{
+        font-size: 25px;
+    }
+    .sub_bnr {
+        min-height: 250px;
+        margin-top: 3.5rem;
     }
   }
 @media(min-width:768px){
@@ -752,6 +744,25 @@
     .foot_title{
         text-align: center;
     }
+    .sec_content{
+        font-size: 32px;
+    }
+    .sub_bnr {
+        min-height: 250px;
+        margin-top: 3.5rem;
+    }
+    .product_bnr{
+        min-height: 250px;
+        margin-top: 3.5rem;
+    }
+    .services_bnr{
+        min-height: 250px;
+        margin-top: 3.5rem;
+    }
+    .careers_bnr{
+        min-height: 250px;
+        margin-top: 3.5rem;
+    }
 }
 @media(min-width:992px){
     .list{
@@ -764,6 +775,25 @@
     }
     .foot_title{
         text-align: left;
+    }
+    .sec_content{
+        font-size: 42px;
+    }
+    .sub_bnr {
+        min-height: 380px;
+        margin-top: 6.5rem;
+    }
+    .product_bnr{
+        min-height: 380px;
+        margin-top: 6.5rem;
+    }
+    .services_bnr{
+        min-height: 380px;
+        margin-top: 6.5rem;
+    }
+    .careers_bnr{
+        min-height: 380px;
+        margin-top: 6.5rem;
     }
 }
 @media(min-width:1200px){
@@ -778,6 +808,26 @@
     .foot_title{
         text-align: left;
     }
+    .sec_content{
+        font-size: 52px;
+    }
+    .sub_bnr {
+        min-height: 380px;
+        margin-top: 6.5rem;
+    }
+    .product_bnr{
+        min-height: 380px;
+        margin-top: 6.5rem;
+    }
+    .services_bnr{
+        min-height: 380px;
+        margin-top: 6.5rem;
+    }
+    .careers_bnr{
+        min-height: 380px;
+        margin-top: 6.5rem;
+    }
+
 }
 .foot_title1{
     color: #fff;
@@ -794,4 +844,13 @@
     margin: 0px;
     padding: 4px;
     color:#999999;
+}
+.sec_content{
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    margin-top: 0%;
 }

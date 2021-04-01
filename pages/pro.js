@@ -16,7 +16,7 @@ export default class Mission extends Component {
       
         <section className={styles.product_bnr}>
             <ProContent/>
-        <h1> {title}</h1>
+        <h1  className={styles.sec_content}> {title}</h1>
         </section>
         <br/>
         <section>
@@ -33,7 +33,8 @@ export default class Mission extends Component {
       {list.description}
          </p>
          <div className={styles.text_center}>
-<img src={list.product_image} width="910" height="553" />
+<img src={list.product_image} className={styles.pro_image} />
+<br/>
     </div>
  </Container>
    

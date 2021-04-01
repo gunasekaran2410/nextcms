@@ -29,9 +29,9 @@ export default class Mission extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
       
-        <section className={styles.sub_bnr}>
+        <section className={styles.careers_bnr}>
             <PostJobContent/>
-        <h1> {title}</h1>
+        <h1  className={styles.sec_content}> {title}</h1>
         </section>
         <br/>
         <section>

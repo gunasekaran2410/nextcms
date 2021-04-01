@@ -16,7 +16,7 @@ export default class Mission extends Component {
       
         <section className={styles.sub_bnr}>
             <MissionContent/>
-        <h1> {title}</h1>
+        <h1 className={styles.sec_content}> {title}</h1>
         </section>
         <br/>
         <section>
