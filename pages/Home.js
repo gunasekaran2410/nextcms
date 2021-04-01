@@ -76,48 +76,47 @@ export default function Home() {
 
   <Container>
   <h3 className={styles.padding}> WHY US </h3>
-    
-    <div className={styles.text_center}>
-    <ListGroup horizontal style={{ background: 'transparent'}}>
-  
-    <ListGroup.Item>
-      <div className={styles.category}>
+
+   <ul className={styles.main_list}>
+     <li>
+     <div className={styles.category}>
       <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'user-alt']} />
       <p className={styles.paragraph}> Customer Focus</p>
       </div>
-    </ListGroup.Item>
-  
-    <ListGroup.Item>
-      <div className={styles.category}>
+
+     </li>
+     <li>
+     <div className={styles.category}>
       <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'trophy']} />
       <p className={styles.paragraph}> Passion for Success</p>
       </div>
-    </ListGroup.Item>
-  
-  
-    <ListGroup.Item>
-      <div className={styles.category}>
+     </li>
+     <li>
+     <div className={styles.category}>
       <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'laptop']} />
       <p className={styles.paragraph}> Technical Knowledge</p>
       </div>
-    </ListGroup.Item>
-  
-    <ListGroup.Item>
-      <div className={styles.category}>
+     </li>
+     <li>
+     <div className={styles.category}>
       <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'book']} />
       <p className={styles.paragraph}>  Integrity & Accountability</p>
       </div>
-    </ListGroup.Item>
-  
-    <ListGroup.Item>
-      <div className={styles.category}>
+     </li>
+     <li>
+     <div className={styles.category}>
       <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'frown']} />
       <p className={styles.paragraph}>   Excellence in Service </p>
       </div>
-    </ListGroup.Item>
+     </li>
+
+   </ul>
   
-  
-  </ListGroup>
+ 
+    
+    <div className={styles.text_center}>
+      
+      
     </div>
   <br></br><br></br>
  

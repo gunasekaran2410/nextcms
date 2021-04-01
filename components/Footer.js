@@ -34,7 +34,7 @@ function Footer(){
        <section className={styles.footer}>
        <Container>
           <Row>
-    <Col>
+    <Col md={3} sm={6} sm={12}>
     <div className={styles.text_center}>
 <img src="/images/inovark tech.png" width="238" height="80" />
     </div>
@@ -42,7 +42,7 @@ function Footer(){
         <div className={styles.gray_color}>   <FontAwesomeIcon icon={['fas', 'envelope']} />   info@inovark.com</div>
         </div>
     </Col>
-    <Col>
+    <Col md={3} sm={6} sm={12}>
     <div className={styles.foot_title1}>Quick Links</div>
      <ul className={styles.list}>
          <li className={styles.foot_list}>
@@ -61,7 +61,7 @@ function Footer(){
      </ul>
  
     </Col>
-    <Col>
+    <Col md={3} sm={6} sm={12}>
     <div className={styles.foot_title}>PHOTO STREAM </div>
   <Row>
       <Col md={4} className={style.col}>
@@ -86,7 +86,7 @@ function Footer(){
       </Col>
   </Row>
     </Col>
-    <Col>
+    <Col md={3} sm={6} sm={12}>
     <div className={styles.foot_title}>SOCIAL SHARE </div>
     <ul className={styles.social}>
         <li>

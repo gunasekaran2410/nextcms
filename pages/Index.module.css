@@ -539,6 +539,9 @@
 .slide{
     margin-top: 6.5rem;
 }
+.slide img{
+    width: 100%;
+}
 .shadow{
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
 }
@@ -716,4 +719,26 @@
     position: relative;
     bottom: 152px;
     color: green;
+  }
+
+
+  .main_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main_list li {
+      display: inline-block;
+      width: 50%;
+    }
+  
+  @media screen and (min-width: 20em) {
+  
+    .main_list li {
+        width: 18.33333%;
+        margin: 0px 9px;
+        min-width: 200px;
+    }
+  
   }

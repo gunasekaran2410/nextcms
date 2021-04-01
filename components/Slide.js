@@ -10,11 +10,11 @@ function Slide(){
        
 <Carousel fade className={styles.slide}>
   <Carousel.Item>
-    <img src="/images/slides/market share.jpg"  width="1920" height="538"  />
+    <img src="/images/slides/market share.jpg"    />
  
   </Carousel.Item>
   <Carousel.Item>
-  <img src="/images/slides/world.jpg"  width="1920" height="538"  />
+  <img src="/images/slides/world.jpg"    />
 
  
   </Carousel.Item>
