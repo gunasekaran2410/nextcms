@@ -87,16 +87,24 @@ function Footer(){
   </Row>
     </Col>
     <Col md={3} sm={6} sm={12}>
-    <div className={styles.foot_title}>SOCIAL SHARE </div>
+    <div className={styles.foot_title1}>SOCIAL SHARE </div>
     <ul className={styles.social}>
         <li>
-           <img src="/images/social/twitter.svg" width="17" height="17"/>
+            <a href="https://www.linkedin.com/in/inovark/" target="_blank"> 
+            <img src="/images/social/linkedin.png" />
+            </a>
+          
         </li>
         <li>
-        <img src="/images/social/twitter.svg" width="17" height="17"/>
+        <a href="https://www.linkedin.com/in/inovark/" target="_blank"> 
+        <img src="/images/social/twitter.png" />
+        </a>
+       
         </li>
         <li>
-        <img src="/images/social/twitter.svg" width="17" height="17"/>
+       <a href="https://www.youtube.com/channel/UCzmBK6ec0Er4DFm0AVoe05A" target="_blank"> 
+       <img src="/images/social/youtube.png" />
+       </a>
         </li>
     </ul>
     </Col>
