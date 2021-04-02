@@ -11,21 +11,6 @@ services:
       their product needs.
     service_title: PRODUCT DEVELOPMENT
     service_image: images/product-design-services-.png
-  - service_title: CLOUD COMPUTING
-    description: Cloud computing enables organizations to utilize the power of
-      Internet and lower their costs. With our technical acumen in cloud
-      platforms and vendors like Amazon AWS, Microsoft Azure, Google Cloud etc.,
-      we work with organizations to come up with a cloud migration strategy and
-      help them achieve the same.
-    service_image: images/cloud.png
-  - service_title: DEVELOPMENT OPERATIONS
-    description: We work with organizations for their IT Services needs. The IT
-      services typically are to maintain websites, servers, databases, maintain
-      source code, build CI/CD processes, automate builds, containerize
-      applications, deploying to cloud. We do all of this while working towards
-      shortening the release cycle and making it more efficient to have a
-      continuous development of the product.
-    service_image: images/develop.png
   - service_title: MOBILE APP DEVELOPMENT
     description: Mobile apps are the need of the hour. It is not just the part of
       developing the app, but as to what needs to be developed. A concrete
@@ -33,6 +18,13 @@ services:
       provide what it needs. We work with our customers to create a strategy for
       them to have a successful mobile app business.
     service_image: images/mobileapp_develpment.jpg
+  - service_title: CLOUD COMPUTING
+    description: Cloud computing enables organizations to utilize the power of
+      Internet and lower their costs. With our technical acumen in cloud
+      platforms and vendors like Amazon AWS, Microsoft Azure, Google Cloud etc.,
+      we work with organizations to come up with a cloud migration strategy and
+      help them achieve the same.
+    service_image: images/cloud.png
   - service_title: QUALITY ASSURANCE
     description: Product sustainably and usage depends on quality process and bug
       free code. Our well-defined testing process and quality assurance team
@@ -42,6 +34,14 @@ services:
       testing for mobile and web applications, catches most of our bugs much
       earlier in the development cycle resulting in a bug-free product.
     service_image: images/quality-assurance.png
+  - service_title: DEVELOPMENT OPERATIONS
+    description: We work with organizations for their IT Services needs. The IT
+      services typically are to maintain websites, servers, databases, maintain
+      source code, build CI/CD processes, automate builds, containerize
+      applications, deploying to cloud. We do all of this while working towards
+      shortening the release cycle and making it more efficient to have a
+      continuous development of the product.
+    service_image: images/develop.png
   - service_title: RESEARCH & DEVELOPMENT
     description: We work with AI, Machine Learning, Computer Vision, Augmented
       Reality using mobile apps for research and development. We use the above
