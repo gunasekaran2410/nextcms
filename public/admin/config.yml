@@ -79,18 +79,6 @@ collections:
             - { label: "Service Title", name: "service_title", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Service image image", name: 'service_image', widget: 'image'}
-    - label: "Services page1"
-      name: "services page1"
-      file: "content/service2.md"
-      fields:
-        - label: 'Service Content (Right image Left text)'
-          name: "services"
-          widget: list
-          fields:
-            - { label: "Service Title", name: "service_title", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            - { label: "service image 2 image", name: 'service_image', widget: 'image'}
-  
     - label: "PostJob"
       name: "postJob"
       file: "content/postJob.md"
