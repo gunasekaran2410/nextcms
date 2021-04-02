@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Image from 'next/image';
@@ -24,7 +25,15 @@ function Navigation(){
       <Nav.Link href="/Home" className={styles.nav_link}>Home</Nav.Link>
       <Nav.Link href="/About" className={styles.nav_link}>About Us</Nav.Link>
       <Nav.Link href="/Products" className={styles.nav_link}>Products</Nav.Link>
-      <Nav.Link href="/Services" className={styles.nav_link} >Services</Nav.Link>
+      {/* <Nav.Link href="/Services" className={styles.nav_link} >Services</Nav.Link> */}
+      <NavDropdown className={styles.dropdown_nav} title="Services"  id="basic-nav-dropdown">
+        <NavDropdown.Item  className={styles.dropdown_nav_li} href="/Services/#nav1">Product Development</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav2">Mobile App Development</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav3">Cloud Computing</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav4">Quality Assurance</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav5">Development Operations</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav6">Research & Development</NavDropdown.Item>
+      </NavDropdown>
       <Nav.Link href="/Careers" className={styles.nav_link} >Careers</Nav.Link>
       <Nav.Link href="/Contact" className={styles.nav_link}>Contact Us</Nav.Link>
 

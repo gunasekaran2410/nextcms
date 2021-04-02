@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import styles from '../pages/Index.module.css';
+import classNames from 'classnames';
+
 export default function ContactForm() {
     return (
       <form name="contact" method="POST" data-netlify="true" action="/success">
@@ -29,7 +31,7 @@ export default function ContactForm() {
           <label htmlFor="yourcontact" className={styles.label}>
              Contact:
           </label> <br />
-          <input type="number" name="contact" required  className={styles.form_control} id="yourcontact" />
+          <input type="number" pattern="\d*"  name="contact" required  className={classNames({[styles.form_control]: true, [styles.input]: true})} id="yourcontact" />
         </p>
             </Col>
      

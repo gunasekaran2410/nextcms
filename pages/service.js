@@ -27,13 +27,13 @@ export default class Service extends Component {
  <br/>
 
 {services.map((list, k) => (
-    <section key={k}>
+    <section key={k} id={'nav'+ k} >
 <br/>
-    <Container>
+    <Container >
         <div className={styles.service_card}> 
 <Row>
     <Col md={5}>
-        <div className={styles.service_title}>
+        <div  className={styles.service_title}>
       {list.service_title}
         </div>
         <p className={styles.service_content}>

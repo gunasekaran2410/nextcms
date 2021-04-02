@@ -1,5 +1,4 @@
 import Navigation from '../components/Nav';
-import Service2 from './service2'
 import Head from "next/head";
 import Service from "./service";
 import Footer from '../components/Footer';
@@ -13,7 +12,7 @@ function Services() {
 
       <Service/>
          
-<Service2/>
+
 <br/>
 
 <Footer/>
