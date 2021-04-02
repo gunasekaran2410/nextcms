@@ -20,10 +20,10 @@ export default class Service extends Component {
         <h1  className={styles.sec_content}> {title}</h1>
         </section>
         <br/>
-        <ServiceContent/>
+       
         <section>
      
-
+        <ServiceContent/>
  <br/>
 
 {services.map((list, k) => (
