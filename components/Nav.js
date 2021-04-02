@@ -8,6 +8,7 @@ import styles from '../pages/Index.module.css';
 
 // import './css/style.css';
 
+
 function Navigation(){
     return(
         <div>
@@ -26,13 +27,13 @@ function Navigation(){
       <Nav.Link href="/About" className={styles.nav_link}>About Us</Nav.Link>
       <Nav.Link href="/Products" className={styles.nav_link}>Products</Nav.Link>
       {/* <Nav.Link href="/Services" className={styles.nav_link} >Services</Nav.Link> */}
-      <NavDropdown className={styles.dropdown_nav} title="Services"  id="basic-nav-dropdown">
-        <NavDropdown.Item  className={styles.dropdown_nav_li} href="/Services/#nav1">Product Development</NavDropdown.Item>
-        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav2">Mobile App Development</NavDropdown.Item>
-        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav3">Cloud Computing</NavDropdown.Item>
-        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav4">Quality Assurance</NavDropdown.Item>
-        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav5">Development Operations</NavDropdown.Item>
-        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav6">Research & Development</NavDropdown.Item>
+      <NavDropdown className={styles.dropdown_nav} title="Services"  id="basic_nav_dropdown">
+        <NavDropdown.Item  className={styles.dropdown_nav_li} href="/Services/#nav0">Product Development</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav1">Mobile App Development</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav2">Cloud Computing</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav3">Quality Assurance</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav4">Development Operations</NavDropdown.Item>
+        <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav5">Research & Development</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="/Careers" className={styles.nav_link} >Careers</Nav.Link>
       <Nav.Link href="/Contact" className={styles.nav_link}>Contact Us</Nav.Link>
