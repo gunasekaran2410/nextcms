@@ -72,7 +72,7 @@ collections:
       file: "content/service.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - label: 'Service Content (left image right text)'
+        - label: 'Service Content'
           name: "services"
           widget: list
           fields:
@@ -90,3 +90,21 @@ collections:
           fields:
             - { label: "Job Title", name: "job_title", widget: "string"}
             - { label: "Job Details", name: "job_description", widget: "text"}
+    - label: "Contact" 
+      name: "contacts"
+      file: "content/contact.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "SubTitle", name: "sub_title", widget: "string"}
+        - label: 'Contact Content'
+          name: "services"
+          widget: list
+          fields:
+            - { label: "Country", name: "country_name", widget: "string"}
+            - { label: "Company Name", name: "company_name", widget: "text"}
+            - { label: "Company State", name: "company_state", widget: "text"}
+            - { label: "Company Address1", name: "company_address1", widget: "text"}
+            - { label: "Company Address2", name: "company_address2", widget: "text"}
+            - { label: "Contact Number", name: "contact_number", widget: "text"}
+            - { label: "Contact Mail", name: "contact_mail", widget: "text"}
+            

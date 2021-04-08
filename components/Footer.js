@@ -39,7 +39,9 @@ function Footer(){
           <Row>
     <Col md={3} sm={6} sm={12}>
     <div className={styles.text_center}>
+<a href="/Home">
 <img src="/images/inovark tech.png" width="238" height="80" />
+</a>
     </div>
     <div className={styles.text_center}>
         <div className={styles.gray_color}>   <FontAwesomeIcon icon={['fas', 'envelope']} />   info@inovark.com</div>
