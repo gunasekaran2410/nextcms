@@ -16,4 +16,24 @@ address:
       USA
     contact_number: +1 -408-689-2220
     contact_mail: " info@inovark.com"
+  - country_name: INDIA
+    company_name: |+
+      Forent Technologies
+
+    company_state: CHENNAI
+    company_address1: 107, Casa grande urbano, venkatamanagalam -
+    company_address2: Ponmar Road, venkatamanagalam, Chennai-600127
+    contact_number: +91 6382 470 434
+    contact_mail: info-india@inovark.com
+  - country_name: INDIA
+    company_name: Forent Technologies
+    company_state: COIMBATORE
+    company_address1: |-
+      304, 3rd floor,
+      KCR Business Today,
+    company_address2: |-
+      7th Street Tatabad,
+      Coimbatore-641012
+    contact_number: +91 8489 395 333
+    contact_mail: " info-india@inovark.com"
 ---
