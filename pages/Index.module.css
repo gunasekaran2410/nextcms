@@ -135,10 +135,7 @@
     color: #fff !important;
     border-color: #005faf;
 }
-.left_side{
-    position: relative;
-    left: 350px;
-}
+
 .text_center{
     text-align: center;
 }
@@ -716,6 +713,10 @@
     .service_title{
         font-size: 22px;
     }
+    .left_side{
+        position: relative;
+        left: 0px;
+    }
   }
 
   @media(max-width:767px){
@@ -743,8 +744,16 @@
     .service_title{
         font-size: 23px;
     }
+    .left_side{
+        position: relative;
+        left: 0px;
+    }
   }
 @media(min-width:768px){
+    .left_side{
+        position: relative;
+        left: 30px;
+    }
     .list{
         list-style-type: none;
         position: unset;
@@ -783,6 +792,10 @@
     }
 }
 @media(min-width:992px){
+    .left_side{
+        position: relative;
+        left: 350px;
+    }
     .list{
         list-style-type: none;
         position: relative;
@@ -821,6 +834,10 @@
     }
 }
 @media(min-width:1200px){
+    .left_side{
+        position: relative;
+        left: 350px;
+    }
     .list{
         list-style-type: none;
         position: relative;

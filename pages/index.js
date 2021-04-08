@@ -48,16 +48,19 @@ export default function Home() {
        {contents.map((li, k) => (
          
     <Col xs={12} sm={6} md={4} key={k}>
-                <article className={styles.thumb}>
+                <article className={styles.thumb} >
                   <div>
                     <img layout="responsive"  src={li.what_we_do_images} alt='What we do image' width="60" height="60" alt="product development" /> 
                       <h1  className={styles.product_text}>{li.name}</h1>
                       <p  className={styles.h_125}> {li.description}</p>
                       </div>
-                      <Button variant="primary" size="sm" className={styles.btn_sm}>
-                      <span>Read more &nbsp;&nbsp;&nbsp; </span>
+                     
+                      <Button variant="primary" size="sm"  className={styles.btn_sm}>
+                  
+                     <span>Read more &nbsp;&nbsp;&nbsp; </span>
+                   
                       <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />
-    </Button>
+    </Button>  
 
                       </article>
     </Col>
