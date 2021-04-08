@@ -17,4 +17,16 @@ services:
       +1 -408-689-2220
     contact_mail: |2
        info@inovark.com
+address:
+  - contact_mail: " info@inovark.com"
+    contact_number: +1 -408-689-2220
+    company_address2: |-
+      California 94086,
+      USA
+    company_address1: |-
+      1013 Reed Ave,
+      Sunnyvale,
+    company_state: SUNNYVALE
+    company_name: Inovark Technologies
+    country_name: AMERICA
 ---
