@@ -699,6 +699,7 @@
     .foot_list{
         text-align: center;
     }
+ 
     .foot_title{
         text-align: center;
     }
@@ -921,4 +922,11 @@
 }
 .service_image{
     padding: 1rem;
+}
+.cgseTX{
+    z-index: 9999  !important;
+}
+.foot_list a{
+    color: #fff !important;
+    text-decoration: none !important;
 }

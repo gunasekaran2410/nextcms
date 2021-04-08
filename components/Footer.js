@@ -7,6 +7,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import ImageView from './Imageview';
+ 
+
 // import the library
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -46,16 +49,30 @@ function Footer(){
     <div className={styles.foot_title1}>Quick Links</div>
      <ul className={styles.list}>
          <li className={styles.foot_list}>
-         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> About Us
+        <a href="/About">
+        <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> About Us
+        </a>
          </li>
          <li className={styles.foot_list}>
-         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Products
+             <a href="/Products">
+             <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Products
+             </a>
+        
          </li>
          <li className={styles.foot_list}>
-         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Services
+        <a href="/Services">
+        <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Services
+        </a>
          </li>
          <li className={styles.foot_list}>
+         <a href="/Careers">
+         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Careers
+         </a>
+         </li>
+         <li className={styles.foot_list}>
+         <a href="/Contact">
          <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Contact Us
+         </a>
          </li>
         
      </ul>
@@ -63,28 +80,7 @@ function Footer(){
     </Col>
     <Col md={3} sm={6} sm={12}>
     <div className={styles.foot_title}>PHOTO STREAM </div>
-  <Row>
-      <Col md={4} className={style.col}>
-      <div className={styles.text_center}>
-             <img className={styles.round} src="/images/footer/1.jpg" width="80" height="80" />
-      </div>
-      </Col>
-      <Col md={4} className={style.col}>
-      <div className={styles.text_center}>
-             <img className={styles.round} src="/images/footer/2.jpg" width="80" height="80" />
-      </div>
-      </Col>
-      <Col md={4} className={style.col}>
-      <div className={styles.text_center}>
-             <img className={styles.round} src="/images/footer/3.jpg" width="80" height="80" />
-      </div>
-      </Col>
-      <Col md={4} className={style.col}>
-      <div className={styles.text_center}>
-             <img className={styles.round1} src="/images/footer/4.jpg" width="80" height="80" />
-      </div>
-      </Col>
-  </Row>
+    <ImageView/>
     </Col>
     <Col md={3} sm={6} sm={12}>
     <div className={styles.foot_title1}>SOCIAL SHARE </div>

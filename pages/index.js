@@ -20,6 +20,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import Mantra from "./mantra";
 import Slide from "../components/Slide";
 
+
 // import your icons
 
 library.add(fas);
@@ -138,6 +139,7 @@ export default function Home() {
   </Container>
   </section>
   <br/><br/><br/>
+
   <Footer/>
 
   </div>
