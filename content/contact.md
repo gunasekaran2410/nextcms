@@ -13,6 +13,8 @@ services:
     company_address2: |-
       California 94086,
       USA
-    contact_number: +1 -408-689-2220
-    contact_mail: " info@inovark.com"
+    contact_number: |
+      +1 -408-689-2220
+    contact_mail: |2
+       info@inovark.com
 ---
