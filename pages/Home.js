@@ -53,7 +53,7 @@ export default function Home() {
                       <h1  className={styles.product_text}>{li.name}</h1>
                       <p  className={styles.h_125}> {li.description}</p>
                       </div>
-                      <a href="/Services" id={'nav'+ k}>
+                      <a href={'/Services/#nav'+ k}>
                       <Button variant="primary" size="sm" className={styles.btn_sm}>
                       <span>Read more &nbsp;&nbsp;&nbsp; </span>
                       <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />

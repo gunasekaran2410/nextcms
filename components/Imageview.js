@@ -5,6 +5,9 @@ import ImageViewer from 'react-simple-image-viewer';
 
 
 function Image() {
+  const divStyle = {
+      zIndex: '9999'
+  }
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
@@ -40,7 +43,7 @@ function Image() {
       {isViewerOpen && (
         <ImageViewer
           src={ images }
-          style={{ zIndex: '9999' }}
+          style={ divStyle }
           onClose={ closeImageViewer }
         />
       )}
