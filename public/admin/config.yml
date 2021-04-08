@@ -92,7 +92,7 @@ collections:
             - { label: "Job Details", name: "job_description", widget: "text"}
     - label: "Contact" 
       name: "contacts"
-      file: "content/contact.md"
+      file: "content/address.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "SubTitle", name: "sub_title", widget: "string"}
