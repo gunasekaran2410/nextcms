@@ -1,6 +1,6 @@
 ---
-title: A GREAT COMPANY STARTS WITH US
-sub_title: test
+title: "Products "
+sub_title: We bring your ideas to life
 slides:
-  - slide_image: images/mission.png
+  - slide_image: images/world.jpg
 ---
