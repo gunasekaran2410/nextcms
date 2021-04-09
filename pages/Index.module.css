@@ -613,6 +613,15 @@
     width: 100%;
 }
 
+  .label_mtr{
+    font-weight: 600;
+    width: 100%;
+}
+.label_mtr:after {
+    content:" *";
+    color: red;
+  }
+
 .checkmark__circle {
     stroke-dasharray: 248;
     stroke-dashoffset: 248;
@@ -965,4 +974,10 @@ select.form-control:not([size]):not([multiple]) {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.selected {
+    color: #005faf !important;
+}
+.active{
+    color: #005faf !important;
 }

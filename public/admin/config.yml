@@ -107,4 +107,14 @@ collections:
             - { label: "Company Address2", name: "company_address2", widget: "text"}
             - { label: "Contact Number", name: "contact_number", widget: "text"}
             - { label: "Contact Mail", name: "contact_mail", widget: "text"}
-            
+    - label: "Home Slides"
+      name: "slide"
+      file: "content/slide.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Sub Title", name: "sub_title", widget: "text"}
+        - label: 'Slides'
+          name: "slides"
+          widget: list
+          fields:
+            - { label: "Slide Image", name: 'slide_image', widget: 'image'}

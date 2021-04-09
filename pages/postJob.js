@@ -37,7 +37,7 @@ export default class Mission extends Component {
         <section>
 
 <Container>
-<h3 className={styles.inner_title}> Join Our Team </h3>
+<h3 className={styles.inner_title}> Join inovark </h3>
 <Row>
 {jobs.map((list, k) => (
 

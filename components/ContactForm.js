@@ -22,7 +22,7 @@ export default function ContactForm() {
     <Row>
         <Col md={4} sm={6} xs={12}>
         <p>
-          <label className={styles.label} htmlFor="yourname">
+          <label className={styles.label_mtr} htmlFor="yourname">
              Name
           </label> <br />
           <input type="text" name="name" required className={styles.form_control} id="yourname" />
@@ -30,7 +30,7 @@ export default function ContactForm() {
         </Col>
         <Col md={4} sm={6} xs={12}>
              <p>
-          <label htmlFor="yourcontact" className={styles.label}>
+          <label htmlFor="yourcontact" className={styles.label_mtr}>
              Contact
           </label> <br />
           <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 10)} maxlength="10" name="contact" required  className={classNames({[styles.form_control]: true, [styles.input]: true})} id="yourcontact" />
@@ -39,7 +39,7 @@ export default function ContactForm() {
      
             <Col md={4} sm={6} xs={12}>
             <p>
-          <label htmlFor="youremail" className={styles.label}>
+          <label htmlFor="youremail" className={styles.label_mtr}>
              Email
           </label> <br />
           <input type="email" name="email" required className={styles.form_control} id="youremail" />
@@ -48,7 +48,7 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourcity" className={styles.label}>
+          <label htmlFor="yourcity" className={styles.label_mtr}>
              City
           </label> <br />
           <input type="text" name="city" required className={styles.form_control} id="yourcity" />
@@ -57,7 +57,7 @@ export default function ContactForm() {
           
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourstate" className={styles.label}>
+          <label htmlFor="yourstate" className={styles.label_mtr}>
              State
           </label> <br />
           <input type="text" name="state" required className={styles.form_control} id="yourstate" />
@@ -69,14 +69,13 @@ export default function ContactForm() {
       <select name="relocation[]" className={styles.select} >
       <option value="yes">Yes</option>
       <option value="no">No</option>
-      <option value="flexible">Flexible</option>
     </select></label>
   </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourdesignation" className={styles.label}>
+          <label htmlFor="yourdesignation" className={styles.label_mtr}>
           Current  Designation
           </label> <br />
           <input type="text" name="designation"  className={styles.form_control} id="yourdesignation" />
@@ -84,7 +83,7 @@ export default function ContactForm() {
             </Col>
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourcompany" className={styles.label}>
+          <label htmlFor="yourcompany" className={styles.label_mtr}>
           Current Company 
           </label> <br />
           <input type="text" name="company"  className={styles.form_control} id="yourcompany" />
@@ -93,8 +92,8 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourctc" className={styles.label}>
-          Current CTC 
+          <label htmlFor="yourctc" className={styles.label_mtr}>
+          Current CTC (LPA)
           </label> <br />
           <input type="text" name="ctc"  className={styles.form_control} id="yourctc" />
         </p>
@@ -103,7 +102,7 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourlinkdin" className={styles.label}>
-          Linkedin
+          LinkedIn Profile
           </label> <br />
           <input type="text" name="linkdin"  className={styles.form_control} id="yourlinkdin" />
         </p>
@@ -111,8 +110,8 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
         <p>
-          <label htmlFor="yourexperience" className={styles.label}>
-          Total Experience
+          <label htmlFor="yourexperience" className={styles.label_mtr}>
+          Total Experience  (Years)
           </label> <br />
           <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 2)} maxlength="10" name="experience" required className={styles.form_control} id="yourexperience" />
         </p>
@@ -123,20 +122,20 @@ export default function ContactForm() {
         
             <Col md={8} sm={6} xs={12}>
         <p>
-          <label htmlFor="youyourself" className={styles.label}>
-          Say about yourself:
+          <label htmlFor="youyourself" className={styles.label_mtr}>
+          Tell us About Yourself
           </label> <br />
-          <textarea type="text"  name="yourself" required className={styles.form_control} id="yourself" />
+          <textarea type="text" placeholder="Give information about you for atleast 250 characters"  name="yourself" required className={styles.form_control} id="yourself" />
         </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
             <p>
-          <label htmlFor="myfile" className={styles.label}>
+          <label htmlFor="myfile" className={styles.label_mtr}>
            Resume 
           </label> <br />
           <input type="file" accept=".doc/*,.pdf" required name="myfile" id="myfile" placeholder="upload file" />
-          (<strong>Note: </strong> <small>Only select: Pdf, docs Format</small>) 
+          (<strong>Note: </strong> <small>Only Upload: Pdf, docs Format</small>) 
         </p>
             </Col>
             <Col md={12} sm={12} xs={12}>
