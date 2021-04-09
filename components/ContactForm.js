@@ -90,8 +90,8 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
             <p>
-    <label htmlFor="yourrelocation" className={styles.label}>Relocation: 
-      <select name="relocation[]" className={styles.form_control} id="yourrelocation">
+    <label  className={styles.label}>Relocation: 
+      <select name="relocation[]" className={styles.form_control} >
       <option value="yes">Yes</option>
       <option value="no">No</option>
       <option value="flexible">Flexible</option>
