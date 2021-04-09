@@ -21,7 +21,7 @@ export default function ContactForm() {
         <Col md={4} sm={6} xs={12}>
         <p>
           <label className={styles.label} htmlFor="yourname">
-             Name:
+             Name
           </label> <br />
           <input type="text" name="name" required className={styles.form_control} id="yourname" />
         </p>
@@ -29,7 +29,7 @@ export default function ContactForm() {
         <Col md={4} sm={6} xs={12}>
              <p>
           <label htmlFor="yourcontact" className={styles.label}>
-             Contact:
+             Contact
           </label> <br />
           <input type="number" pattern="\d*"  name="contact" required  className={classNames({[styles.form_control]: true, [styles.input]: true})} id="yourcontact" />
         </p>
@@ -38,7 +38,7 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
             <p>
           <label htmlFor="youremail" className={styles.label}>
-             Email:
+             Email
           </label> <br />
           <input type="email" name="email" required className={styles.form_control} id="youremail" />
         </p>
@@ -47,7 +47,7 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourcity" className={styles.label}>
-             City:
+             City
           </label> <br />
           <input type="text" name="city" required className={styles.form_control} id="yourcity" />
         </p>
@@ -56,16 +56,26 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourstate" className={styles.label}>
-             State:
+             State
           </label> <br />
           <input type="text" name="state" required className={styles.form_control} id="yourstate" />
         </p>
+            </Col>
+            <Col md={4} sm={6} xs={12}>
+            <p>
+    <label required className={styles.label}>Relocation
+      <select name="relocation[]" className={styles.select} >
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="flexible">Flexible</option>
+    </select></label>
+  </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourdesignation" className={styles.label}>
-          Current  Designation:
+          Current  Designation
           </label> <br />
           <input type="text" name="designation"  className={styles.form_control} id="yourdesignation" />
         </p>
@@ -73,7 +83,7 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourcompany" className={styles.label}>
-          Current Company :
+          Current Company 
           </label> <br />
           <input type="text" name="company"  className={styles.form_control} id="yourcompany" />
         </p>
@@ -82,7 +92,7 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourctc" className={styles.label}>
-          Current CTC :
+          Current CTC 
           </label> <br />
           <input type="text" name="ctc"  className={styles.form_control} id="yourctc" />
         </p>
@@ -90,31 +100,23 @@ export default function ContactForm() {
 
            
 
-            <Col md={4} sm={6} xs={12}>
-            <p>
-    <label  className={styles.label}>Relocation: 
-      <select name="relocation[]" className={styles.select} required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-      <option value="flexible">Flexible</option>
-    </select></label>
-  </p>
-            </Col>
+        
             <Col md={8} sm={6} xs={12}>
         <p>
           <label htmlFor="youyourself" className={styles.label}>
           Say about yourself:
           </label> <br />
-          <textarea type="text" name="yourself" className={styles.form_control} id="yourself" />
+          <textarea type="text" name="yourself" required className={styles.form_control} id="yourself" />
         </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
             <p>
           <label htmlFor="myfile" className={styles.label}>
-           Resume :
+           Resume 
           </label> <br />
           <input type="file" required name="myfile" id="myfile" placeholder="upload file" />
+          (<strong>Note: </strong> <small>Only select: Pdf, docs Format</small>) 
         </p>
             </Col>
             <Col md={12} sm={12} xs={12}>
