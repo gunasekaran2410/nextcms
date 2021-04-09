@@ -65,9 +65,17 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
         <p>
           <label htmlFor="yourdesignation" className={styles.label}>
-             Previous Designation:
+          Current  Designation:
           </label> <br />
           <input type="text" name="designation"  className={styles.form_control} id="yourdesignation" />
+        </p>
+            </Col>
+            <Col md={4} sm={6} xs={12}>
+        <p>
+          <label htmlFor="yourcompany" className={styles.label}>
+          Current Company :
+          </label> <br />
+          <input type="text" name="company"  className={styles.form_control} id="yourcompany" />
         </p>
             </Col>
 
@@ -78,6 +86,17 @@ export default function ContactForm() {
           </label> <br />
           <input type="text" name="yourself" className={styles.form_control} id="youryourself" />
         </p>
+            </Col>
+
+            <Col md={4} sm={6} xs={12}>
+            <p>
+    <label className={styles.label}>Relocation: 
+      <select name="role[]" className={styles.form_control} >
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="flexible">Flexible</option>
+    </select></label>
+  </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
