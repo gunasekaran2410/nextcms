@@ -84,14 +84,14 @@ export default function ContactForm() {
           <label htmlFor="youyourself" className={styles.label}>
           Say about yourself:
           </label> <br />
-          <input type="text" name="yourself" className={styles.form_control} id="youryourself" />
+          <input type="text" name="yourself" className={styles.form_control} id="yourself" />
         </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
             <p>
-    <label className={styles.label}>Relocation: 
-      <select name="role[]" className={styles.form_control} >
+    <label htmlFor="yourrelocation" className={styles.label}>Relocation: 
+      <select name="role[]" className={styles.form_control} id="yourrelocation">
       <option value="yes">Yes</option>
       <option value="no">No</option>
       <option value="flexible">Flexible</option>
