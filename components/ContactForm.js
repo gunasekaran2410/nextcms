@@ -7,7 +7,9 @@ import styles from '../pages/Index.module.css';
 import classNames from 'classnames';
 
 export default function ContactForm() {
+
     return (
+      
       <form name="contact" method="POST" data-netlify="true" action="/success">
         <input type="hidden" name="form-name" value="contact" />
         <Container>
@@ -31,7 +33,7 @@ export default function ContactForm() {
           <label htmlFor="yourcontact" className={styles.label}>
              Contact
           </label> <br />
-          <input type="number" pattern="\d*"  name="contact" required  className={classNames({[styles.form_control]: true, [styles.input]: true})} id="yourcontact" />
+          <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 10)} maxlength="10" name="contact" required  className={classNames({[styles.form_control]: true, [styles.input]: true})} id="yourcontact" />
         </p>
             </Col>
      
@@ -112,7 +114,7 @@ export default function ContactForm() {
           <label htmlFor="yourexperience" className={styles.label}>
           Total Experience
           </label> <br />
-          <input type="number" name="experience" required className={classNames({[styles.form_control]: true, [styles.input]: true})} id="yourexperience" />
+          <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 2)} maxlength="10" name="experience" required className={styles.form_control} id="yourexperience" />
         </p>
             </Col>
 
@@ -133,7 +135,7 @@ export default function ContactForm() {
           <label htmlFor="myfile" className={styles.label}>
            Resume 
           </label> <br />
-          <input type="file" required name="myfile" id="myfile" placeholder="upload file" />
+          <input type="file" accept=".doc/*,.pdf" required name="myfile" id="myfile" placeholder="upload file" />
           (<strong>Note: </strong> <small>Only select: Pdf, docs Format</small>) 
         </p>
             </Col>
