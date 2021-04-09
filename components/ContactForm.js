@@ -98,6 +98,24 @@ export default function ContactForm() {
         </p>
             </Col>
 
+            <Col md={4} sm={6} xs={12}>
+        <p>
+          <label htmlFor="yourlinkdin" className={styles.label}>
+          Linkedin
+          </label> <br />
+          <input type="text" name="linkdin"  className={styles.form_control} id="yourlinkdin" />
+        </p>
+            </Col>
+
+            <Col md={4} sm={6} xs={12}>
+        <p>
+          <label htmlFor="yourexperience" className={styles.label}>
+          Total Experience
+          </label> <br />
+          <input type="number" name="experience" required className={classNames({[styles.form_control]: true, [styles.input]: true})} id="yourexperience" />
+        </p>
+            </Col>
+
            
 
         
@@ -106,7 +124,7 @@ export default function ContactForm() {
           <label htmlFor="youyourself" className={styles.label}>
           Say about yourself:
           </label> <br />
-          <textarea type="text" name="yourself" required className={styles.form_control} id="yourself" />
+          <textarea type="text"  name="yourself" required className={styles.form_control} id="yourself" />
         </p>
             </Col>
 
