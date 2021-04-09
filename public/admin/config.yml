@@ -111,10 +111,10 @@ collections:
       name: "slide"
       file: "content/slide.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Sub Title", name: "sub_title", widget: "text"}
         - label: 'Slides'
           name: "slides"
           widget: list
           fields:
+            - { label: "Title", name: "title", widget: "string"}
+            - { label: "Sub Title", name: "sub_title", widget: "text"}
             - { label: "Slide Image", name: 'slide_image', widget: 'image'}
