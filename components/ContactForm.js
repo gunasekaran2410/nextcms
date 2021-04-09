@@ -81,6 +81,15 @@ export default function ContactForm() {
 
             <Col md={4} sm={6} xs={12}>
         <p>
+          <label htmlFor="yourctc" className={styles.label}>
+          Current CTC :
+          </label> <br />
+          <input type="text" name="ctc"  className={styles.form_control} id="yourctc" />
+        </p>
+            </Col>
+
+            <Col md={4} sm={6} xs={12}>
+        <p>
           <label htmlFor="youyourself" className={styles.label}>
           Say about yourself:
           </label> <br />
@@ -91,7 +100,7 @@ export default function ContactForm() {
             <Col md={4} sm={6} xs={12}>
             <p>
     <label  className={styles.label}>Relocation: 
-      <select name="relocation[]" className={styles.form_control} >
+      <select name="relocation[]" className={styles.select} required>
       <option value="yes">Yes</option>
       <option value="no">No</option>
       <option value="flexible">Flexible</option>
