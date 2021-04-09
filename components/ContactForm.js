@@ -88,14 +88,7 @@ export default function ContactForm() {
         </p>
             </Col>
 
-            <Col md={4} sm={6} xs={12}>
-        <p>
-          <label htmlFor="youyourself" className={styles.label}>
-          Say about yourself:
-          </label> <br />
-          <input type="text" name="yourself" className={styles.form_control} id="yourself" />
-        </p>
-            </Col>
+           
 
             <Col md={4} sm={6} xs={12}>
             <p>
@@ -106,6 +99,14 @@ export default function ContactForm() {
       <option value="flexible">Flexible</option>
     </select></label>
   </p>
+            </Col>
+            <Col md={8} sm={6} xs={12}>
+        <p>
+          <label htmlFor="youyourself" className={styles.label}>
+          Say about yourself:
+          </label> <br />
+          <textarea type="text" name="yourself" className={styles.form_control} id="yourself" />
+        </p>
             </Col>
 
             <Col md={4} sm={6} xs={12}>
