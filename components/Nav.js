@@ -27,7 +27,7 @@ function Navigation(){
       <Nav.Link href="/About" className={styles.nav_link}>About Us</Nav.Link>
       <Nav.Link href="/Products" className={styles.nav_link}>Products</Nav.Link>
       {/* <Nav.Link href="/Services" className={styles.nav_link} >Services</Nav.Link> */}
-      <NavDropdown className={styles.dropdown_nav} title="Services"  id="basic_nav_dropdown">
+      <NavDropdown  title="Services"  className={styles.nav_link} id="basic_nav_dropdown">
         <NavDropdown.Item  className={styles.dropdown_nav_li} href="/Services/#nav0">Product Development</NavDropdown.Item>
         <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav1">Mobile App Development</NavDropdown.Item>
         <NavDropdown.Item className={styles.dropdown_nav_li} href="/Services/#nav2">Cloud Computing</NavDropdown.Item>
