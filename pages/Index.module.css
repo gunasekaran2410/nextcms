@@ -981,3 +981,9 @@ select.form-control:not([size]):not([multiple]) {
 .active{
     color: #005faf !important;
 }
+.slide_title {
+    font-size: 2.2rem !important;
+}
+.slide_sub_title {
+    font-size: 1.5rem !important;
+}

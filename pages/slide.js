@@ -14,8 +14,8 @@ function Slide(){
   <Carousel.Item key={k}>
     <img src={list.slide_image}    />
     <Carousel.Caption>
-          <h3>{list.title} </h3>
-          <p>{list.sub_title}</p>
+          <h3 className={styles.slide_title}>{list.title} </h3>
+          <p className={styles.slide_sub_title}>{list.sub_title}</p>
         </Carousel.Caption>
   </Carousel.Item>
   )
