@@ -7,7 +7,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import ListGroup from 'react-bootstrap/ListGroup'
 import ClientSlide from '../components/ClientSlide';
 import Footer from '../components/Footer'
 import { useRouter } from 'next/router'
@@ -69,8 +68,10 @@ export default function Home() {
       )
       )}
   </Row>
-  
+
+
 </Container>
+
      </section>
 
          

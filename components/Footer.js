@@ -94,7 +94,7 @@ function Footer(){
           
         </li>
         <li>
-        <a href="https://www.linkedin.com/in/inovark/" target="_blank"> 
+        <a href="https://twitter.com/search?q=Inovark" target="_blank"> 
         <img src="/images/social/twitter.png" />
         </a>
        

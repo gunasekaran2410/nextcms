@@ -65,11 +65,14 @@ export default function Home() {
 
                       </article>
     </Col>
+
+    
     
   
       )
       )}
   </Row>
+
   
 </Container>
      </section>
