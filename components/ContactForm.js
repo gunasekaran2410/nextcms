@@ -10,7 +10,7 @@ export default function ContactForm() {
 
     return (
       
-      <form name="contact" method="POST" data-netlify="true" action="/success">
+      <form name="contact" ata-netlify-recaptcha="true" method="POST" data-netlify="true" action="/success">
         <input type="hidden" name="form-name" value="contact" />
         <Container>
         <Card>
@@ -137,6 +137,9 @@ export default function ContactForm() {
           <input type="file" accept=".doc/*,.pdf" required name="myfile" id="myfile" placeholder="upload file" />
           (<strong>Note: </strong> <small>Only Upload: Pdf, docs Format</small>) 
         </p>
+            </Col>
+            <Col md={12} sm={12} xs={12}>
+            <div data-netlify-recaptcha="true"></div>
             </Col>
             <Col md={12} sm={12} xs={12}>
             <div className={styles.text_right}>
