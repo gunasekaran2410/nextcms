@@ -6,4 +6,7 @@ slides:
   - title: "Services "
     sub_title: "Enhance your team capabilities with our resources "
     slide_image: images/market-share.jpg
+  - title: Software Development
+    sub_title: " skilled in Cloud And Mobile "
+    slide_image: images/software.jpg
 ---
