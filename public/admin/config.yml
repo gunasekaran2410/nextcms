@@ -71,7 +71,6 @@ collections:
       name: "services"
       file: "content/service.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
         - label: 'Service Content'
           name: "services"
           widget: list

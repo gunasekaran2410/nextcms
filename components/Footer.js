@@ -6,6 +6,7 @@ import styles from '../pages/Index.module.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Link from 'next/link'
 
 import ImageView from './Imageview';
  
@@ -33,6 +34,8 @@ library.add(fas);
 function Footer(){
     return(
         <div>
+
+         
             
        <section className={styles.footer}>
        <Container>
@@ -51,32 +54,43 @@ function Footer(){
     <div className={styles.foot_title1}>Quick Links</div>
      <ul className={styles.list}>
          <li className={styles.foot_list}>
-        <a href="/About">
+       
+        <Link href="/About">
+        <a>
         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> About Us
         </a>
+            </Link>
          </li>
          <li className={styles.foot_list}>
-             <a href="/Products">
+           
+           <Link href="/Products">
+           <a>
              <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Products
-             </a>
+             </a></Link>
         
          </li>
          <li className={styles.foot_list}>
-        <a href="/Services">
+      <Link href="/Services">
+      <a >
         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Services
         </a>
+      </Link>
          </li>
          <li className={styles.foot_list}>
-         <a href="/Careers">
+    <Link href="/Careers">
+    <a >
          <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Careers
          </a>
+    </Link>
          </li>
          <li className={styles.foot_list}>
-         <a href="/Contact">
+         <Link href="/Contact">
+         <a >
          <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Contact Us
          </a>
+         </Link>
          </li>
-        
+         
      </ul>
  
     </Col>

@@ -1,14 +1,14 @@
-import Head from "next/head"
+
 // import { Component } from 'react'
 import { attributes, react as HomeContent } from '../content/home.md';
-import Navigation from '../components/Nav';
+
 import styles from './Index.module.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
+
 import ClientSlide from '../components/ClientSlide';
-import Footer from '../components/Footer'
+
 import { useRouter } from 'next/router'
 
 // import the library
@@ -18,7 +18,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Mantra from "./mantra";
 import Slide from "./slide";
-
+import View from './View';
+import Layout from './Layout';
 // import your icons
 
 library.add(fas);
@@ -28,136 +29,139 @@ export default function Home() {
   const router = useRouter()
   let { title, contents } = attributes;
   let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
-  
+
+
 
   return <div>
-     <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        </Head>
-        <Navigation/>
+   
        
+      <Layout>
+         
        <Slide/>
-        <section className={styles.section}>
-       
-       <div className="text-center">
+     
+     <section className={styles.section}>
+    
+    <div className="text-center">
 <h3 className={styles.inner_title}> {title}
 </h3>
-       </div>
-       <Container>
-       <HomeContent />
-   
-       <Row>
-       {contents.map((li, k) => (
+    </div>
+    <Container>
+    <HomeContent />
+
+    <Row>
+    {contents.map((li, k) => (
+      
+ <Col xs={12} sm={6} md={4} key={k}>
+         <article className={styles.thumb}>
+               <div>
+                 <img layout="responsive"  src={base_asset_url+li.what_we_do_images} alt='What we do image' width="60" height="60" alt="product development" /> 
+                   <h1  className={styles.product_text}>{li.name}</h1>
+                   <p  className={styles.h_125}> {li.description}</p>
+                   </div>
+                   {/* <a href={'/Services/#nav'+ k}>
+                   <Button variant="primary" size="sm" className={styles.btn_sm}>
+                   <span>Read more &nbsp;&nbsp;&nbsp; </span>
+                   <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />
+ </Button>
+                     </a> */}
+                       <View/>
+                    
+                   </article>
          
-    <Col xs={12} sm={6} md={4} key={k}>
-            <article className={styles.thumb}>
-                  <div>
-                    <img layout="responsive"  src={base_asset_url+li.what_we_do_images} alt='What we do image' width="60" height="60" alt="product development" /> 
-                      <h1  className={styles.product_text}>{li.name}</h1>
-                      <p  className={styles.h_125}> {li.description}</p>
-                      </div>
-                      <a href={'/Services/#nav'+ k}>
-                      <Button variant="primary" size="sm" className={styles.btn_sm}>
-                      <span>Read more &nbsp;&nbsp;&nbsp; </span>
-                      <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />
-    </Button>
-                        </a>
-                 
-
-                      </article>
-            
-                     
-                      
-    </Col>
+                  
+                   
+ </Col>
 
 
-    
-  
-      )
-      )}
-  </Row>
+ 
+
+   )
+   )}
+</Row>
+
 
 
 </Container>
 
-     </section>
+  </section>
+ 
 
-         
 {/* why us */}
 <section className={styles.light_gray_bg}>
-  
 
-  <Container>
-  <h3 className={styles.inner_title}> WHY US </h3>
 
-   <ul className={styles.main_list}>
-     <li>
-     <div className={styles.category}>
-      <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'user-alt']} />
-      <p className={styles.paragraph}> Customer Focus</p>
-      </div>
+<Container>
+<h3 className={styles.inner_title}> WHY US </h3>
 
-     </li>
-     <li>
-     <div className={styles.category}>
-      <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'trophy']} />
-      <p className={styles.paragraph}> Passion for Success</p>
-      </div>
-     </li>
-     <li>
-     <div className={styles.category}>
-      <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'laptop']} />
-      <p className={styles.paragraph}> Technical Knowledge</p>
-      </div>
-     </li>
-     <li>
-     <div className={styles.category}>
-      <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'book']} />
-      <p className={styles.paragraph}>  Integrity & Accountability</p>
-      </div>
-     </li>
-     <li>
-     <div className={styles.category}>
-      <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'frown']} />
-      <p className={styles.paragraph}>   Excellence in Service </p>
-      </div>
-     </li>
+<ul className={styles.main_list}>
+  <li>
+  <div className={styles.category}>
+   <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'user-alt']} />
+   <p className={styles.paragraph}> Customer Focus</p>
+   </div>
 
-   </ul>
-  
+  </li>
+  <li>
+  <div className={styles.category}>
+   <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'trophy']} />
+   <p className={styles.paragraph}> Passion for Success</p>
+   </div>
+  </li>
+  <li>
+  <div className={styles.category}>
+   <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'laptop']} />
+   <p className={styles.paragraph}> Technical Knowledge</p>
+   </div>
+  </li>
+  <li>
+  <div className={styles.category}>
+   <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'book']} />
+   <p className={styles.paragraph}>  Integrity & Accountability</p>
+   </div>
+  </li>
+  <li>
+  <div className={styles.category}>
+   <FontAwesomeIcon className={styles.list_icon} icon={['fas', 'frown']} />
+   <p className={styles.paragraph}>   Excellence in Service </p>
+   </div>
+  </li>
+
+</ul>
+
+
  
-    
-    <div className={styles.text_center}>
-      
-      
-    </div>
-  <br></br><br></br>
- 
-
-  <Mantra/>
-  </Container>
-
-  <br/>
-  <br/>
-  
-  </section>
-
-     <ClientSlide/>
+ <div className={styles.text_center}>
+   
+   
+ </div>
+<br></br><br></br>
 
 
-  <section className={styles.section}>
-  <Container>
-  <h3 className={styles.inner_title}> OUR TECHNOLOGIES
-  
-   </h3>
-  <p className={styles.text_center}> WE TRUST IN LONG LASTING PARTNERSHIPS WITH THE MOST IMPORTANT BRANDS ON THE MARKET
-  </p>
-  
-  <img src="/images/tech.png" className={styles.img_line} />
-  </Container>
-  </section>
-  <br/><br/><br/>
-  <Footer/>
+<Mantra/>
+</Container>
+
+<br/>
+<br/>
+
+</section>
+
+  <ClientSlide/>
+
+
+<section className={styles.section}>
+<Container>
+<h3 className={styles.inner_title}> OUR TECHNOLOGIES
+
+</h3>
+<p className={styles.text_center}> WE TRUST IN LONG LASTING PARTNERSHIPS WITH THE MOST IMPORTANT BRANDS ON THE MARKET
+</p>
+
+<img src="/images/tech.png" className={styles.img_line} />
+</Container>
+</section>
+<br/><br/><br/>
+      </Layout>
+
 
   </div>
 }

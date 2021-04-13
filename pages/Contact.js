@@ -8,18 +8,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Footer from '../components/Footer';
 import Address from './address'
+import Layout from './Layout';
 
 library.add(fas);
 
 function Contacts() {
     return <div>
-          <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        </Head>
-        <Navigation/>
+       <Layout>
        <Address/>
-       
-       <Footer/>
+       </Layout>
     </div>
   }
   

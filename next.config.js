@@ -3,10 +3,10 @@ module.exports = {
     env: {
         dev_asset:"",
         prod_asset:"https://d1ader1ub22xrb.cloudfront.net/",
-        type: 'prod',
+        type: 'dev',
       },
 
-    assetPrefix: 'https://d1ader1ub22xrb.cloudfront.net/',
+    // assetPrefix: 'https://d1ader1ub22xrb.cloudfront.net/',
     webpack: (cfg) => {
         
         cfg.module.rules.push(

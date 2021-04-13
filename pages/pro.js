@@ -44,7 +44,7 @@ export default class Mission extends Component {
 
 
 </section>
-
+<br/><br/>
       </>
     )
   }

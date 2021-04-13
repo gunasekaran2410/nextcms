@@ -2,18 +2,13 @@ import Navigation from '../components/Nav';
 import Head from "next/head";
 import Footer from '../components/Footer';
 import Pro from './pro';  
+import Layout from './Layout';
 function Products() {
     return <div>
-         <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        </Head>
-        <Navigation/>
+      <Layout>
+      <Pro/>
       
-     
-     <Pro/>
-     
-        <br/>
-        <Footer/>
+      </Layout>
     </div>
   }
   

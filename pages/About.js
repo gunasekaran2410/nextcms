@@ -1,27 +1,24 @@
-import Navigation from '../components/Nav';
-import Head from "next/head";
-import Footer from '../components/Footer';
+
 import Mission from './mission';
 import Management from './management';
+import Layout from './Layout'
 
 function About() {
    
     return <div>
-          <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        </Head>
-        <Navigation/>
-      
-      <Mission/>
-      
-<br/><br/>
-<section>
-   
-   <Management/>
+        <Layout>
 
-</section>
-<br/><br/>
-<Footer/>
+        <Mission/>
+      
+      <br/><br/>
+      <section>
+         
+         <Management/>
+      
+      </section>
+        </Layout>
+      
+
     </div>
   }
   
