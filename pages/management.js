@@ -8,6 +8,8 @@ import Col from 'react-bootstrap/Col'
 export default class Management extends Component {
   render() {
     let { title, managements, management_image } = attributes;
+    let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+
     return (
       <>
         <Head>
@@ -33,7 +35,7 @@ export default class Management extends Component {
     
  </Col>
  <Col md={3}> 
- <img src={management_image} className={styles.person}  />
+ <img src={base_asset_url+management_image} className={styles.person}  />
  </Col>
 
      </Row>

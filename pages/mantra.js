@@ -10,6 +10,8 @@ import Table from 'react-bootstrap/Table'
 export default class Mantra extends Component {
   render() {
     let { title, mantras } = attributes;
+    let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+
     return (
       <>
         <Head>
@@ -29,7 +31,7 @@ export default class Mantra extends Component {
 <tbody>
   <tr>
     <td className={styles.border_none}>
-      <img width="60" height="60"  src={mantra.hero_image} alt='Mantra image' />
+      <img width="60" height="60"  src={base_asset_url+mantra.hero_image} alt='Mantra image' />
     </td>
     <td className={styles.border_none}>
       <h4>{mantra.name}</h4>

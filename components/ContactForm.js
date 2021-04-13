@@ -113,7 +113,7 @@ export default function ContactForm() {
           <label htmlFor="yourexperience" className={styles.label_mtr}>
           Total Experience  (Years)
           </label> <br />
-          <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 2)} maxlength="10" name="experience" required className={styles.form_control} id="yourexperience" />
+          <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 2)}  name="experience" required className={styles.form_control} id="yourexperience" />
         </p>
             </Col>
 

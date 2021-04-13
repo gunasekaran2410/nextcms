@@ -45,7 +45,7 @@ export default function Home() {
        </div>
        <Container>
        <HomeContent />
-       <Row>
+       {/* <Row>
        {contents.map((li, k) => (
          
     <Col xs={12} sm={6} md={4} key={k}>
@@ -71,7 +71,7 @@ export default function Home() {
   
       )
       )}
-  </Row>
+  </Row> */}
 
   
 </Container>

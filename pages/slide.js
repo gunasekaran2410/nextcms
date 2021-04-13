@@ -6,6 +6,8 @@ import styles from '../pages/Index.module.css';
 import { attributes, react as SlideContent } from '../content/slide.md';
 function Slide(){
   let { slides} = attributes;
+  let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+
 
   return(
       <div>
@@ -13,7 +15,7 @@ function Slide(){
 <Carousel fade className={styles.slide} indicators={false}>
 {slides.map((list, k) => (
   <Carousel.Item key={k}>
-    <img src={list.slide_image}    />
+    <img src={base_asset_url+list.slide_image}    />
     <Carousel.Caption className={styles.carousel_caption}>
           <h3 className={styles.slide_title}>{list.title} </h3>
           <p className={styles.slide_sub_title}>{list.sub_title}</p>

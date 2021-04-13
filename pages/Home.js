@@ -27,6 +27,8 @@ library.add(fas);
 export default function Home() {
   const router = useRouter()
   let { title, contents } = attributes;
+  let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+  
 
   return <div>
      <Head>
@@ -43,13 +45,14 @@ export default function Home() {
        </div>
        <Container>
        <HomeContent />
+   
        <Row>
        {contents.map((li, k) => (
          
     <Col xs={12} sm={6} md={4} key={k}>
-                <article className={styles.thumb}>
+            <article className={styles.thumb}>
                   <div>
-                    <img layout="responsive"  src={li.what_we_do_images} alt='What we do image' width="60" height="60" alt="product development" /> 
+                    <img layout="responsive"  src={base_asset_url+li.what_we_do_images} alt='What we do image' width="60" height="60" alt="product development" /> 
                       <h1  className={styles.product_text}>{li.name}</h1>
                       <p  className={styles.h_125}> {li.description}</p>
                       </div>
@@ -62,7 +65,12 @@ export default function Home() {
                  
 
                       </article>
+            
+                     
+                      
     </Col>
+
+
     
   
       )
@@ -128,11 +136,12 @@ export default function Home() {
 
   <Mantra/>
   </Container>
-  
+
   <br/>
   <br/>
   
   </section>
+
      <ClientSlide/>
 
 

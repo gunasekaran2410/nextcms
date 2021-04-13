@@ -9,6 +9,8 @@ import Container from 'react-bootstrap/Container'
 export default class Service extends Component {
   render() {
     let { title, services } = attributes;
+    let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+
     return (
       <>
         <Head>
@@ -41,7 +43,7 @@ export default class Service extends Component {
         </p>
     </Col>
     <Col md={7}>
-        <img src={list.service_image} className={styles.img} />
+        <img src={base_asset_url+list.service_image} className={styles.img} />
     </Col>
 </Row>
         </div>

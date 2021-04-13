@@ -2,12 +2,13 @@ import Head from "next/head"
 import { Component } from 'react'
 import { attributes, react as ProContent } from '../content/pro.md';
 import styles from './Index.module.css'
-import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 
 export default class Mission extends Component {
   render() {
     let { title, pros, } = attributes;
+    let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+
     return (
       <>
         <Head>
@@ -27,13 +28,13 @@ export default class Mission extends Component {
 {pros.map((list, k) => (
  <Container key={k}>
  <div className={styles.text_center}>
-<img src={list.logo_image}   />
+<img src={base_asset_url+list.logo_image}   />
     </div>
     <p className={styles.product_content}>
       {list.description}
          </p>
          <div className={styles.text_center}>
-<img src={list.product_image} className={styles.pro_image} />
+<img src={base_asset_url+list.product_image} className={styles.pro_image} />
 <br/>
     </div>
  </Container>

@@ -8,6 +8,8 @@ import Col from 'react-bootstrap/Col'
 export default class Mission extends Component {
   render() {
     let { title, missions, sectionTitle } = attributes;
+    let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+
     return (
       <>
         <Head>
@@ -35,7 +37,7 @@ export default class Mission extends Component {
          {list.name}
  </div>
 <div className={styles.mission_card_body}>
-    <img height="96" width="96"  src={list.mission_image} alt='about image' />
+    <img height="96" width="96"  src={base_asset_url+list.mission_image} alt='about image' />
 </div>
 <div className={styles.mission_content}>
     {list.description}

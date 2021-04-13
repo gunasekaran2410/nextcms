@@ -1,5 +1,14 @@
 module.exports = {
+    trailingSlash: true,
+    env: {
+        dev_asset:"",
+        prod_asset:"https://d1ader1ub22xrb.cloudfront.net/",
+        type: 'prod',
+      },
+
+    assetPrefix: 'https://d1ader1ub22xrb.cloudfront.net/',
     webpack: (cfg) => {
+        
         cfg.module.rules.push(
             {
                 test: /\.md$/,
