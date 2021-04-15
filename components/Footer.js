@@ -42,8 +42,8 @@ function Footer(){
           <Row>
     <Col md={3} sm={6} sm={12}>
     <div className={styles.text_center}>
-<a href="/Home">
-<img src="/images/inovark tech.png" width="238" height="80" />
+<a href="javascript:void(0)">
+<img src="/" width="238" height="80" />
 </a>
     </div>
     <div className={styles.text_center}>
@@ -69,13 +69,7 @@ function Footer(){
              </a></Link>
         
          </li>
-         <li className={styles.foot_list}>
-      <Link href="/Services">
-      <a >
-        <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Services
-        </a>
-      </Link>
-         </li>
+      
          <li className={styles.foot_list}>
     <Link href="/Careers">
     <a >

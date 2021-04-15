@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+
 import styles from './Index.module.css'
 import { attributes, react as ServiceContent } from '../content/service.md';
 // import the library
@@ -35,7 +36,7 @@ function View() {
     onHide={() => setLgShow(false)}
     aria-labelledby="example-modal-sizes-title-lg"
   >
-    <Modal.Header closeButton>
+    <Modal.Header closeButton className="bg-primary">
       <Modal.Title id="example-modal-sizes-title-lg">
       {list.service_title}
       </Modal.Title>
