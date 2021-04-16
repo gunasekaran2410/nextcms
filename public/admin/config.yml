@@ -19,6 +19,9 @@ collections:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Icons", name: 'what_we_do_images', widget: 'image'}
+            - { label: "Modal Title", name: "service_title", widget: "text" }
+            - { label: "Modal Content", name: "service_content", widget: "text" }
+            - { label: "Modal Image", name: "service_image", widget: "image" }
     - label: "Mantra"
       name: "mantra"
       file: "content/mantra.md"
@@ -67,17 +70,6 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Logo image", name: 'logo_image', widget: 'image'}
             - { label: "Product image", name: 'product_image', widget: 'image'}       
-    - label: "Services"
-      name: "services"
-      file: "content/service.md"
-      fields:
-        - label: 'Service Content'
-          name: "services"
-          widget: list
-          fields:
-            - { label: "Service Title", name: "service_title", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            - { label: "Service image image", name: 'service_image', widget: 'image'}
     - label: "PostJob"
       name: "postJob"
       file: "content/postJob.md"

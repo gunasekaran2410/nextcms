@@ -11,7 +11,7 @@ function Slide(){
 
   return(
       <div>
-       
+       <SlideContent/>
 <Carousel fade className={styles.slide} indicators={false}>
 {slides.map((list, k) => (
   <Carousel.Item key={k}>

@@ -222,9 +222,16 @@
         display: none;
     }
     .slide_title {
-        font-size: 25px !important;
+        font-size: 32px !important;
     }
     .slide_sub_title {
-        font-size: 15px !important;
+        font-size: 18px !important;
     }
+}
+
+.hide_file{
+    display: none;
+}
+.modal-body{
+    padding: 0 !important;
 }

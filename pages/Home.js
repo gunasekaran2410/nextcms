@@ -1,12 +1,13 @@
 
 // import { Component } from 'react'
 import { attributes, react as HomeContent } from '../content/home.md';
-
+import React, { useEffect, useState } from "react";
 import styles from './Index.module.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
-
+import Modal from 'react-bootstrap/Modal'
 import ClientSlide from '../components/ClientSlide';
 
 import { useRouter } from 'next/router'
@@ -18,7 +19,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Mantra from "./mantra";
 import Slide from "./slide";
-import View from './View';
 import Layout from './Layout';
 // import your icons
 
@@ -26,11 +26,20 @@ library.add(fas);
 
 
 export default function Home() {
+  const [getData, setData] = useState({service_title:"",service_content:"",service_image:"",status:false});
   const router = useRouter()
   let { title, contents } = attributes;
   let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
 
 
+  function modelOpen(li){
+    console.log("modelOpen",li);
+    setData({service_title:li.service_title,service_content:li.service_content, service_image:li.service_image, status:true});
+    console.log(getData);
+  }
+  function hideModel(){
+    setData({service_title:"",service_content:"", service_image:"",status:false});
+  }
 
   return <div>
    
@@ -64,22 +73,94 @@ export default function Home() {
                    <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />
  </Button>
                      </a> */}
-                       <View/>
+
+                     
+<div className="hide_file">
+<Container >
+ <div className={styles.service_card}> 
+<Row>
+<Col md={5}>
+ <div  className={styles.service_title}>
+{li.service_title}
+ </div>
+ <p className={styles.service_content}>
+ {li.service_content}
+ </p>
+</Col>
+<Col md={7}>
+ <img src={base_asset_url+li.service_image} className={styles.img} />
+</Col>
+</Row>
+ </div>
+</Container>
+</div>
+
+
+                      <Button onClick={() => modelOpen(li)} variant="primary" size="sm" className={styles.btn_sm}>
+                      <span>Read more &nbsp;&nbsp;&nbsp; </span>
+                      <FontAwesomeIcon className={styles.read_icon} icon={['fas', 'chevron-circle-right']} />
+                        </Button>
                     
-                   </article>
-         
-                  
-                   
+                   </article>   
  </Col>
+
+
 
 
  
 
    )
    )}
+
+
 </Row>
 
 
+
+<Modal
+    centered  
+    size="lg"
+    show={getData.status}
+    onHide={() => hideModel()}
+    dialogClassName="modal-50w"
+        aria-labelledby="example-custom-modal-styling-title"
+  >
+    <Modal.Header closeButton className="bg-primary">
+      <Modal.Title id="example-modal-sizes-title-lg">
+      {getData.service_title}
+      </Modal.Title>
+    </Modal.Header>
+    <Modal.Body>
+      
+ 
+ <br/>
+
+
+    <section  >
+<br/>
+    <Container >
+        <div className={styles.service_card}> 
+<Row>
+    <Col md={5}>
+        {/* <div  className={styles.service_title}>
+      {list.service_title}
+        </div> */}
+        <p className={styles.service_content}>
+        {getData.service_content}
+        </p>
+    </Col>
+    <Col md={7}>
+        <img src={base_asset_url+getData.service_image} className={styles.img} />
+    </Col>
+</Row>
+        </div>
+    </Container>
+</section>
+   
+
+
+    </Modal.Body>
+  </Modal>
 
 </Container>
 

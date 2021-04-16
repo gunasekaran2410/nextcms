@@ -21,6 +21,7 @@ function View() {
   let {  services } = attributes;
   let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
 
+  
   return(
   <div>
        <Button onClick={() => setLgShow(true)} variant="primary" size="sm" className={styles.btn_sm}>
