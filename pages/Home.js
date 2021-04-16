@@ -132,12 +132,8 @@ export default function Home() {
     </Modal.Header>
     <Modal.Body>
       
- 
- <br/>
-
-
     <section  >
-<br/>
+
     <Container >
         <div className={styles.service_card}> 
 <Row>
