@@ -1,3 +1,4 @@
-/ netlify.toml
 [build]
-  command = "yarn build"
+  publish = "build"
+  command = "echo 'default context'"
+  functions = "functions"
