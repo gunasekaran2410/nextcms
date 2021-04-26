@@ -33,11 +33,7 @@ export default function ContactForm() {
           <label  className={styles.label_mtr}>
              Contact
           </label> <br />
-<<<<<<< HEAD
           <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 10)} maxlength="10"  required  className={classNames({[styles.form_control]: true, [styles.input]: true})}  />
-=======
-          <input type="number" onInput={(e) => e.target.value = e.target.value.slice(0, 10)} maxlength="10" name="contact" required  className={classNames({[styles.form_control]: true, [styles.input]: true})}  />
->>>>>>> 44c81f29d7437aff56d05f301515c79f6356593f
         </p>
             </Col>
      
