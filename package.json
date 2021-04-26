@@ -14,10 +14,6 @@
     "build-static": "next build && next export && npm run build-static-repair-index ",
     "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
   },
-  "cacheDirectories": [
-    "node_modules/",
-    ".next/cache/"
-  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
