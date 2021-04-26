@@ -167,6 +167,12 @@
     .slide_sub_title {
         font-size: 13px !important;
     }
+    .carousel_caption {
+    
+        padding-top: 0px;
+        padding-bottom: 0px;
+     
+    }
 }
 @media(min-width:768px){
     #nav-mobile{
@@ -186,6 +192,12 @@
     }
     .slide_sub_title {
         font-size: 1.5rem !important;
+    }
+    .carousel_caption {
+    
+        padding-top: 20px;
+        padding-bottom: 20px;
+     
     }
 }
 @media(min-width:992px){
@@ -207,6 +219,12 @@
     .slide_sub_title {
         font-size: 1.5rem !important;
     }
+    .carousel_caption {
+    
+        padding-top: 20px;
+        padding-bottom: 20px;
+     
+    }
 }
 @media(min-width:1200px){
     #nav-mobile{
@@ -227,6 +245,12 @@
     .slide_sub_title {
         font-size: 18px !important;
     }
+    .carousel_caption {
+    
+        padding-top: 20px;
+        padding-bottom: 20px;
+     
+    }
 }
 
 .hide_file{
@@ -245,3 +269,38 @@
     opacity: 0.7;
 }
 .modal-open{overflow:auto !important;padding-right:0 !important;}
+
+.list-group-item{
+    border: none !important;
+    padding: 6px 12px !important;
+}
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    top: 25%;
+}
+.carousel_caption {
+    position: absolute;
+    right: 0% !important;
+    bottom: 0% !important;
+    left: 0% !important;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    background-color: #444;
+    width: 100%;
+}
+.guuruq{
+    visibility: hidden;
+}
+.cJeRRR{
+    visibility: hidden;
+}
+table tbody tr td a{
+    color: #a3a9ac !important;
+    padding: 6px 12px;
+}
+.mobile-view table {
+    border-collapse: collapse;
+    position: relative;
+    right: 51px;
+}

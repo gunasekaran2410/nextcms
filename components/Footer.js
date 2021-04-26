@@ -42,8 +42,8 @@ function Footer(){
           <Row>
     <Col md={3} sm={6} sm={12}>
     <div className={styles.text_center}>
-<a href="javascript:void(0)">
-<img src="/" width="238" height="80" />
+<a href="./">
+<img src="/images/inovark tech.png" width="238" height="80" />
 </a>
     </div>
     <div className={styles.text_center}>
@@ -52,7 +52,8 @@ function Footer(){
     </Col>
     <Col md={3} sm={6} sm={12}>
     <div className={styles.foot_title1}>Quick Links</div>
-     <ul className={styles.list}>
+    <div className="web-view">
+    <ul className={styles.list}>
          <li className={styles.foot_list}>
        
         <Link href="/About">
@@ -86,6 +87,46 @@ function Footer(){
          </li>
          
      </ul>
+    </div>
+    <div className="mobile-view">
+
+    <table>
+         <tbody>
+             <tr>
+                 <td>
+                 <Link href="/About">
+        <a>
+        <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> About Us
+        </a>
+            </Link>
+                 </td>
+                 <td>
+                 <Link href="/Products">
+           <a>
+             <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Products
+             </a></Link>
+                     </td>
+             </tr>
+             <tr>
+                 <td>
+                 <Link href="/Careers">
+    <a >
+         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Careers
+         </a>
+    </Link>
+                 </td>
+                 <td>
+                 <Link href="/Contact">
+         <a >
+         <FontAwesomeIcon className={styles.size} icon={['fas', 'chevron-right']} /> Contact Us
+         </a>
+         </Link>
+                     </td>
+             </tr>
+           
+         </tbody>
+     </table>
+        </div>
  
     </Col>
     <Col md={3} sm={6} sm={12}>

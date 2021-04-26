@@ -10,7 +10,7 @@ import styles from '../pages/Index.module.css';
 import Link from 'next/link'
 import {useRouter} from 'next/router'
 import DropdownButton from 'react-bootstrap/DropdownButton'
-
+import ListGroup from 'react-bootstrap/ListGroup'
 import Dropdown from 'react-bootstrap/Dropdown'
 
 
@@ -32,7 +32,8 @@ function isActive(route)
     return(
         <div className="nav-wrapper #1565c0 blue dark-3">
  <Container>
-   <Row className="rows">
+   <div className="web-view">
+   <Row className="rows" >
      <Col md="4" xs="6" sm="6" className="text-center">
      <Link href="/">
      <a className="brand-logo left">
@@ -41,7 +42,7 @@ function isActive(route)
    </Link>
      </Col>
      <Col md="8"  xs="6" sm="6" className="text-center">
-  <div className="web-view">
+  <div >
   <ul id="nav-mobile" >
 <li className={ isActive('/Home')} >
 <Link href="/Home">
@@ -80,15 +81,30 @@ Contact Us
   </div>
      </Col>
    </Row>
- </Container>
-
- <DropdownButton id="dropdown-basic-button" className="mobile-view" title="Menu">
+   </div>
+  <div className="mobile-view">
+  <ListGroup horizontal>
+  <ListGroup.Item> <Link href="/">
+     <a className="brand-logo left">
+     <img src="/images/logo.png" className="logo" alt="Logo"/>
+     </a>
+   </Link></ListGroup.Item>
+  <ListGroup.Item>  <DropdownButton id="dropdown-basic-button" title="Menu">
   <Dropdown.Item href="/Home">Home</Dropdown.Item>
   <Dropdown.Item href="/About">About</Dropdown.Item>
   <Dropdown.Item href="/Products">Products</Dropdown.Item>
   <Dropdown.Item href="/Careers">Careers</Dropdown.Item>
   <Dropdown.Item href="/Contact">Contact US</Dropdown.Item>
-</DropdownButton>
+</DropdownButton></ListGroup.Item>
+
+</ListGroup>
+
+ 
+  </div>
+  
+ </Container>
+
+
             
         </div>
     )
