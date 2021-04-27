@@ -1,6 +1,6 @@
-import Footer from 'components/Footer';
-import Nav from 'components/Nav';
-import Social from 'components/Social';
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
+import Social from '../components/Social';
 
 
 function Layout(props)
