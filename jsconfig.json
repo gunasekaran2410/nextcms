@@ -1,6 +1,0 @@
-// {
-//     "compilerOptions": {
-//       "baseUrl": "."
-//     }
-// }
-/** Enable when you deploy at s3 */
