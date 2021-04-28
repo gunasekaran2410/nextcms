@@ -6,7 +6,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
 import PostJob from './postJob'
-import ContactForm from '../components/ContactForm'
 import Layout from './Layout';
 
 // import your icons
@@ -24,7 +23,7 @@ function Careers() {
         
       
      <PostJob/>
-     <ContactForm />
+    
       </Layout>
       
 

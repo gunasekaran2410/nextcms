@@ -1,7 +1,7 @@
 ---
 slides:
   - title: Software Development
-    sub_title: " skilled in Cloud And Mobile "
+    sub_title: " Skilled in Cloud And Mobile "
     slide_image: images/software.jpg
   - title: "Services "
     sub_title: "Enhance your team capabilities with our resources "

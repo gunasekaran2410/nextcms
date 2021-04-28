@@ -73,7 +73,7 @@ Products
 <li className={ isActive('/Contact')} >
   <Link href="/Contact">
     <a >
-Contact Us
+Contact us
     </a>
   </Link>
 </li>
