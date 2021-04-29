@@ -51,7 +51,10 @@ export default class Mission extends Component {
                  {list.job_description}
              </p>
 {/* <Forms/> */}
-             <Button variant="outline-primary"  className="btns">Apply</Button>
+<a href="https://forms.gle/mh1D2ya6hqPbs1cv6" target="_blank">
+<Button variant="outline-primary"  className="btns">Apply</Button>
+</a>
+          
              </div>
     </Col>
 )
