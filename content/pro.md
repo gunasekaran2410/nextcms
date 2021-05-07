@@ -13,7 +13,7 @@ pros:
       about your kids journey from home to school and back.
     logo_image: images/product/isafe.png
     product_image: images/product/isafe Connect.jpg
-    site_link: http://www.inovark.com
+    site_link: http://www.isafeapp.in/
   - description: >+
       Nature of this app is to connecting healthcare providers and patients. Get
       instant actionable push notifications for appointments, changes, wait
@@ -26,7 +26,7 @@ pros:
 
     logo_image: images/atrial-rhythm.png
     product_image: images/atrial-plus.jpg
-    site_link: http://www.google.com
+    site_link: http://atrialrhythm.com/
   - logo_image: images/1t.jpg
     product_image: images/1trak.jpg
     description: Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -38,7 +38,7 @@ pros:
       Letraset sheets containing Lorem Ipsum passages, and more recently with
       desktop publishing software like Aldus PageMaker including versions of
       Lorem Ipsum.
-    site_link: http://www.google.com
+    site_link: https://www.1trak.in/
   - description: >+
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -53,5 +53,5 @@ pros:
 
     logo_image: images/jwel.png
     product_image: images/jwelar.jpg
-    site_link: http://www.google.com
+    site_link: https://www.jwelar.com/
 ---
