@@ -69,7 +69,7 @@ collections:
           fields:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Logo image", name: 'logo_image', widget: 'image'}
-            - { label: "Logo image", name: 'site_link', widget: 'link'}
+            - { label: "Logo image", name: 'site_link', widget: 'string'}
             - { label: "Product image", name: 'product_image', widget: 'image'}       
     - label: "PostJob"
       name: "postJob"
