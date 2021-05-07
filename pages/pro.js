@@ -47,10 +47,21 @@ export default class Mission extends Component {
                     p className = { styles.product_content } > { list.description } <
                     /p> <
                     div className = { styles.text_center } >
+
+                    <
+                    a target = "_blank"
+                    href = { list.site_link } > test < /a>
+
+
+
+
+
                     <
                     img src = { base_asset_url + list.product_image }
                     className = { styles.pro_image }
-                    /> <
+                    /> 
+
+                    <
                     br / >
                     <
                     /div> <

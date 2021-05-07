@@ -2,6 +2,7 @@
 title: OUR PRODUCTS
 logo_image: images/isafe.png
 product_image: images/isafe-connect.jpg
+site_link: http://www.google.com
 pros:
   - description: Our mobile based apps connect schools, teachers and parents. Always
       be connected to your children’s school and teachers, need to talk to
@@ -12,6 +13,7 @@ pros:
       about your kids journey from home to school and back.
     logo_image: images/product/isafe.png
     product_image: images/product/isafe Connect.jpg
+    site_link: http://www.google.com
   - description: >+
       Nature of this app is to connecting healthcare providers and patients. Get
       instant actionable push notifications for appointments, changes, wait
@@ -24,6 +26,7 @@ pros:
 
     logo_image: images/atrial-rhythm.png
     product_image: images/atrial-plus.jpg
+    site_link: http://www.google.com
   - logo_image: images/logo.png
     product_image: images/1trak.jpg
     description: Lorem Ipsum is simply dummy text of the printing and typesetting
