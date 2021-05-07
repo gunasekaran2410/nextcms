@@ -24,7 +24,7 @@ pros:
 
     logo_image: images/atrial-rhythm.png
     product_image: images/atrial-plus.jpg
-  - logo_image: images/logo.png
+  - logo_image: images/1t.jpg
     product_image: images/1trak.jpg
     description: Lorem Ipsum is simply dummy text of the printing and typesetting
       industry. Lorem Ipsum has been the industry's standard dummy text ever
