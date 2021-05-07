@@ -38,7 +38,7 @@ pros:
       Letraset sheets containing Lorem Ipsum passages, and more recently with
       desktop publishing software like Aldus PageMaker including versions of
       Lorem Ipsum.
-    site_link: a
+    site_link: http://www.google.com
   - description: >+
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -53,5 +53,5 @@ pros:
 
     logo_image: images/jwel.png
     product_image: images/jwelar.jpg
-    site_link: sa
+    site_link: http://www.google.com
 ---
