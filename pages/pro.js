@@ -53,7 +53,8 @@ export default class Mission extends Component {
                     /> <
                     br / >
                     <
-                    /div> < /
+                    /div> <
+                    br / > < /
                     Container >
 
                 ))
