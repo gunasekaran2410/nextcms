@@ -28,6 +28,7 @@ pros:
     product_image: images/atrial-plus.jpg
     site_link: http://www.google.com
   - logo_image: images/logo.png
+  - logo_image: images/1t.jpg
     product_image: images/1trak.jpg
     description: Lorem Ipsum is simply dummy text of the printing and typesetting
       industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -38,4 +39,18 @@ pros:
       Letraset sheets containing Lorem Ipsum passages, and more recently with
       desktop publishing software like Aldus PageMaker including versions of
       Lorem Ipsum.
+  - description: >+
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+
+
+    logo_image: images/jwel.png
+    product_image: images/jwelar.jpg
 ---
