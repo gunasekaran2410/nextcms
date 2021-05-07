@@ -27,7 +27,6 @@ pros:
     logo_image: images/atrial-rhythm.png
     product_image: images/atrial-plus.jpg
     site_link: http://www.google.com
-  - logo_image: images/logo.png
   - logo_image: images/1t.jpg
     product_image: images/1trak.jpg
     description: Lorem Ipsum is simply dummy text of the printing and typesetting
