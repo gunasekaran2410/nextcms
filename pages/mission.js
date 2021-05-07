@@ -6,53 +6,76 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 export default class Mission extends Component {
-  render() {
-    let { title, missions, sectionTitle } = attributes;
-    let base_asset_url = process.env.type == "dev" ?process.env.dev_asset : process.env.prod_asset;
+    render() {
+        let { title, missions, sectionTitle } = attributes;
+        let base_asset_url = process.env.type == "dev" ? process.env.dev_asset : process.env.prod_asset;
 
-    return (
-      <>
-        <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        </Head>
-      
-        <section className={styles.sub_bnr}>
-            <MissionContent/>
-        <h1 className={styles.sec_content}> {title}</h1>
-        </section>
-        <br/>
-        <section>
-        <br/>
-<h3 className={styles.inner_title}> 
-{sectionTitle}
- </h3>
- <br/>
-<Container>
-<Row>
-{missions.map((list, k) => (
+        return ( <
+            >
+            <
+            Head >
+            <
+            script src = "https://identity.netlify.com/v1/netlify-identity-widget.js" > < /script> < /
+            Head >
 
-    <Col md={3} key={k} >
-        <div className={styles.mission_box}>
-        <div className={styles.mission_box_title}>
-         {list.name}
- </div>
-<div className={styles.mission_card_body}>
-    <img height="96" width="96"  src={base_asset_url+list.mission_image} alt='about image' />
-</div>
-<div className={styles.mission_content}>
-    {list.description}
-    </div>
+            <
+            section className = { styles.sub_bnr } >
+            <
+            MissionContent / >
+            <
+            h1 className = { styles.sec_content } > { title } < /h1> < /
+            section > < div className = "color-lines" >
+            <
+            img src = "../images/borders design.jpg" / >
+            <
+            /div> <
+            br / >
+            <
+            section >
+            <
+            br / >
+            <
+            h3 className = { styles.inner_title } > { sectionTitle } <
+            /h3> <
+            br / >
+            <
+            Container >
+            <
+            Row > {
+                missions.map((list, k) => (
 
-        </div>
-    </Col>
-)
-)}
+                    <
+                    Col md = { 3 }
+                    key = { k } >
+                    <
+                    div className = { styles.mission_box } >
+                    <
+                    div className = { styles.mission_box_title } > { list.name } <
+                    /div> <
+                    div className = { styles.mission_card_body } >
+                    <
+                    img height = "96"
+                    width = "96"
+                    src = { base_asset_url + list.mission_image }
+                    alt = 'about image' / >
+                    <
+                    /div> <
+                    div className = { styles.mission_content } > { list.description } <
+                    /div>
 
-</Row>
- </Container>
-</section>
+                    <
+                    /div> < /
+                    Col >
+                ))
+            }
 
-      </>
-    )
-  }
+            <
+            /Row> < /
+            Container > <
+            /section>
+
+            <
+            />
+        )
+    }
 }
