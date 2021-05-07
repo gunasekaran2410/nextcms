@@ -50,18 +50,12 @@ export default class Mission extends Component {
 
                     <
                     a target = "_blank"
-                    href = { list.site_link } > test < /a>
-
-
-
-
-
+                    href = { list.site_link } >
                     <
                     img src = { base_asset_url + list.product_image }
                     className = { styles.pro_image }
-                    /> 
-
-                    <
+                    />  <
+                    /a> <
                     br / >
                     <
                     /div> <
