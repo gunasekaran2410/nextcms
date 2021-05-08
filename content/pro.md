@@ -29,15 +29,11 @@ pros:
     site_link: http://atrialrhythm.com/
   - logo_image: images/1t.jpg
     product_image: images/1trak.jpg
-    description: Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with
-      desktop publishing software like Aldus PageMaker including versions of
-      Lorem Ipsum.
+    description: >+
+      1Trak is an end to end Sales & Manufacturing solution for ordering,
+      product tracking and payment tracking.   Be it a manufacturer, retailer or
+      a distributor 1Trak enables you to track it all.
+
     site_link: https://www.1trak.in/
   - description: >+
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
