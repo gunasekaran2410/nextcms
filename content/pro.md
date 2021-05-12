@@ -1,5 +1,5 @@
 ---
-title: OUR PRODUCTS
+title: OUR PRODUCTS2
 logo_image: images/isafe.png
 product_image: images/isafe-connect.jpg
 site_link: http://www.google.com
